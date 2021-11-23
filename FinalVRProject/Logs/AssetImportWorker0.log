@@ -15,12 +15,12 @@ C:/ARVRZoo/VRFinalAssignment/FinalVRProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63774
+64081
 Successfully changed project path to: C:/ARVRZoo/VRFinalAssignment/FinalVRProject
 C:/ARVRZoo/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 283.48 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 4.41 ms.
+Refreshing native plugins compatible for Editor in 214.01 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 4.27 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/ARVRZoo/VRFinalAssignment/FinalVRProject/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009275 seconds.
+Registered in 0.004271 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 205.18 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
+Refreshing native plugins compatible for Editor in 140.59 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.289 seconds
+- Completed reload, in  9.104 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11290ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (9104ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1052ms)
-			LoadAssemblies (160ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (549ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (206ms)
-				BeforeProcessingInitializeOnLoad (28ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.064227 seconds.
+Registered in 0.033118 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 176.54 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 148.15 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -332,45 +332,45 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 [Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
 
-- Completed reload, in  3.792 seconds
+- Completed reload, in  3.345 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3795ms)
-		BeginReloadAssembly (269ms)
+	ReloadAssembly (3347ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (3358ms)
-			LoadAssemblies (306ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2967ms)
+			LoadAssemblies (294ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (696ms)
+			SetupTypeCache (615ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (1641ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (1467ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (177ms)
-				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (1215ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (1089ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 2.39 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.34 ms.
-Unloading 4004 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.6 MB.
-System memory in use after: 214.6 MB.
+Unloading 4006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.7 MB.
+System memory in use after: 214.7 MB.
 
-Unloading 196 unused Assets to reduce memory usage. Loaded Objects now: 4503.
-Total: 11.399300 ms (FindLiveObjects: 0.786200 ms CreateObjectMapping: 0.315500 ms MarkObjects: 9.424200 ms  DeleteObjects: 0.870500 ms)
+Unloading 223 unused Assets to reduce memory usage. Loaded Objects now: 4505.
+Total: 19.002100 ms (FindLiveObjects: 2.102400 ms CreateObjectMapping: 0.524500 ms MarkObjects: 14.843700 ms  DeleteObjects: 1.524000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -384,16 +384,160 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Hippo/node_id30 (2).prefab
-  artifactKey: Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hippo/node_id30 (2).prefab using Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e88a234f9e79db8b3af16dc4017093') in 0.494227 seconds 
-  Import took 0.506881 seconds .
+  path: Assets/PolygonPi/FenceLayout/Example/ExampleTerrain.asset
+  artifactKey: Guid(a7c13d42294141c4c86db06247ea2d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/ExampleTerrain.asset using Guid(a7c13d42294141c4c86db06247ea2d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9d6fef28c7c77c448f396712fe304e') in 0.089770 seconds 
+  Import took 0.102855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.462944 seconds.
-  path: Assets/Prefabs/Hippo/Hippopo.prefab
-  artifactKey: Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hippo/Hippopo.prefab using Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54be575ee3e73919d69edf9394add990') in 0.051429 seconds 
-  Import took 0.064431 seconds .
+  Time since last request: 0.000587 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/TreesPrefab.prefab
+  artifactKey: Guid(80b3b77ed9e3e3a42955d7f0086d5eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/TreesPrefab.prefab using Guid(80b3b77ed9e3e3a42955d7f0086d5eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fda58673dfb16099f70e6a90bbcdf44') in 0.038793 seconds 
+  Import took 0.049994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/PolygonPi
+  artifactKey: Guid(abf7ab33b07e6124f8f15b4e8992e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi using Guid(abf7ab33b07e6124f8f15b4e8992e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb45243eea44756d7f1898741e7dd55') in 0.012361 seconds 
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/PolygonPi/FenceLayout/Editor
+  artifactKey: Guid(8bd389a1df91dcb41a8cbfe51c22bb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Editor using Guid(8bd389a1df91dcb41a8cbfe51c22bb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa4f628bf9214980f22c50b5693088d') in 0.015043 seconds 
+  Import took 0.026403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/FencePanel.prefab
+  artifactKey: Guid(b9c7a183a7a2e004cb24435cb080a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/FencePanel.prefab using Guid(b9c7a183a7a2e004cb24435cb080a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0dbabbb6081d8d26fed751ec419673') in 0.315385 seconds 
+  Import took 0.325221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/Materials
+  artifactKey: Guid(e145d4c12a792b0459b0d36797dd083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/Materials using Guid(e145d4c12a792b0459b0d36797dd083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f6264c2831047cd74a1b50a7794110') in 0.010777 seconds 
+  Import took 0.022621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/WoodMat.mat
+  artifactKey: Guid(254fa9f855dcc914da4ffb2260edfa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/WoodMat.mat using Guid(254fa9f855dcc914da4ffb2260edfa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b283b904beafd247f8ffbd1f09921b62') in 0.061425 seconds 
+  Import took 0.071422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/ExampleTerrain2018.asset
+  artifactKey: Guid(843e96d070df0e8499f362b1d12458be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/ExampleTerrain2018.asset using Guid(843e96d070df0e8499f362b1d12458be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa42e02619dce17f25336519e488a165') in 0.204968 seconds 
+  Import took 0.215366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/FencePost.prefab
+  artifactKey: Guid(cab90c40ab6e48540b863bd64860e39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/FencePost.prefab using Guid(cab90c40ab6e48540b863bd64860e39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42f37fef411bdb0fa92504010b8a88f') in 0.028866 seconds 
+  Import took 0.038373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/Materials/wood.mat
+  artifactKey: Guid(73ad7e67fd0e1a34faf1da67a935679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/Materials/wood.mat using Guid(73ad7e67fd0e1a34faf1da67a935679a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6848eb1e026e48170abf2a0449f988') in 0.028459 seconds 
+  Import took 0.041005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example
+  artifactKey: Guid(1ce7f74894c77104a9ec6bffb33092fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example using Guid(1ce7f74894c77104a9ec6bffb33092fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595338f9f16f5d3b0f98248cea59fafa') in 0.012282 seconds 
+  Import took 0.022177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/wood.png
+  artifactKey: Guid(768d2fd3e8ff1f347a258af72ee83da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/wood.png using Guid(768d2fd3e8ff1f347a258af72ee83da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a46a610952c5d19b236851f1549174') in 0.142014 seconds 
+  Import took 0.153419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001672 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/FencesPrefab.prefab
+  artifactKey: Guid(ffa1d3d761e5eff468dffd01f0c94d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/FencesPrefab.prefab using Guid(ffa1d3d761e5eff468dffd01f0c94d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf9a2561460a75c765033558fcf126') in 0.027073 seconds 
+  Import took 0.042368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/GreenMat.mat
+  artifactKey: Guid(8597b0f975ae5754580b9bc617045693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/GreenMat.mat using Guid(8597b0f975ae5754580b9bc617045693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1552e2f26917025740229a7b8c8c33b') in 0.033048 seconds 
+  Import took 0.047767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/FencesPrefab.prefab
+  artifactKey: Guid(ffa1d3d761e5eff468dffd01f0c94d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/FencesPrefab.prefab using Guid(ffa1d3d761e5eff468dffd01f0c94d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf9a2561460a75c765033558fcf126') in 0.016773 seconds 
+  Import took 0.031196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/Tree.prefab
+  artifactKey: Guid(2b1b86bc5a21a5146a27db99b2aa714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/Tree.prefab using Guid(2b1b86bc5a21a5146a27db99b2aa714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a38568f451e1138ce520d7ce3c0530') in 0.038844 seconds 
+  Import took 0.051005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/PolygonPi/FenceLayout
+  artifactKey: Guid(65b20a52264728c4ba569c5726e6a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout using Guid(65b20a52264728c4ba569c5726e6a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65725cfc1fcc93098e7cb9bcd4aa1e8e') in 0.017929 seconds 
+  Import took 0.032995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.727055 seconds.
+  path: Assets/PolygonPi/FenceLayout/Example/ExampleScene2019+.unity
+  artifactKey: Guid(bc2037bd0277fa84aad02db72719ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPi/FenceLayout/Example/ExampleScene2019+.unity using Guid(bc2037bd0277fa84aad02db72719ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd6ac21048b12ce07617c8cdd929eb3') in 0.038185 seconds 
+  Import took 0.051398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.255544 seconds.
+  path: Assets/Prefabs/Hippo/Fence.prefab
+  artifactKey: Guid(7f8d6c57fd39e5a4b985206325429ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hippo/Fence.prefab using Guid(7f8d6c57fd39e5a4b985206325429ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df82a80a0d4f9304308e10b40365345') in 0.039291 seconds 
+  Import took 0.052893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.730310 seconds.
+  path: Assets/Fence.mat
+  artifactKey: Guid(c78fa065ede1f8b48acb1ec4e8fc2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence.mat using Guid(c78fa065ede1f8b48acb1ec4e8fc2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125f962976805166f8ac73350f0655b9') in 0.047761 seconds 
+  Import took 0.065626 seconds .
 
