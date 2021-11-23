@@ -2,8 +2,8 @@ Unity Editor version:    2020.3.17f1 (a4537701e4ab)
 Branch:                  2020.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.0.1 (Build 21A559)
-Darwin version:          21.1.0
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
 Architecture:            x86_64
 Running under Rosetta:   YES
 Available memory:        8192 MB
@@ -11,87 +11,87 @@ Using pre-set license
 Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject
+/Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51890
-Successfully changed project path to: /Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject
-/Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject
+56971
+Successfully changed project path to: /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
+/Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.39 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 13.32 ms.
+Refreshing native plugins compatible for Editor in 158.07 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 30.97 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-23 21:31:40.357 Unity[11269:594647] (null) preferred device: Apple M1 (high power)
-2021-11-23 21:31:40.357 Unity[11269:594647] Metal devices available: 1
-2021-11-23 21:31:40.358 Unity[11269:594647] 0: Apple M1 (high power)
-2021-11-23 21:31:40.358 Unity[11269:594647] Using device Apple M1 (high power)
+2021-11-23 21:46:56.878 Unity[55813:6366320] (null) preferred device: Apple M1 (high power)
+2021-11-23 21:46:56.878 Unity[55813:6366320] Metal devices available: 1
+2021-11-23 21:46:56.878 Unity[55813:6366320] 0: Apple M1 (high power)
+2021-11-23 21:46:56.878 Unity[55813:6366320] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56269
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56813
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001756 seconds.
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001223 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 72.95 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
+Refreshing native plugins compatible for Editor in 77.34 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.707 seconds
+- Completed reload, in  2.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1707ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (2496ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (493ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (616ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006707 seconds.
+Registered in 0.007265 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 77.52 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
+Refreshing native plugins compatible for Editor in 75.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
 Mono: successfully reloaded assembly
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -102,22 +102,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -128,22 +128,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -154,22 +154,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -180,22 +180,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -206,22 +206,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -232,22 +232,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -258,22 +258,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -284,22 +284,22 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
@@ -310,46 +310,46 @@ RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Assertion failed on expression: 'm_Ptr'
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
-UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at /Users/gnnchya/Documents/VR Room Project/Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
 UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssemblyReloadEvents.cs:22)
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
-- Completed reload, in  3.384 seconds
+- Completed reload, in  3.668 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3386ms)
-		BeginReloadAssembly (251ms)
+	ReloadAssembly (3671ms)
+		BeginReloadAssembly (278ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (31ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (3046ms)
-			LoadAssemblies (217ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (3296ms)
+			LoadAssemblies (232ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
+			SetupTypeCache (453ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1880ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1993ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (1619ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (1678ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.009708 seconds.
+Validating Project structure ... 0.036829 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.029380 seconds.
+Upgrading shader files ...0.121364 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 
@@ -366,21 +366,19 @@ Assets queued for import after Refresh completed:
 	Assets/XR/Settings/Open XR Package Settings.asset
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
 Initializing Unity extensions:
-2021-11-23 21:31:48.079 Unity[11269:594647] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003eac700 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2021-11-23 21:31:48.084 Unity[11269:594647] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d480e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 Unloading 4019 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 367.5 MB.
-System memory in use after: 366.3 MB.
+System memory in use before: 340.2 MB.
+System memory in use after: 339.4 MB.
 
-Unloading 521 unused Assets to reduce memory usage. Loaded Objects now: 4535.
-Total: 3.913500 ms (FindLiveObjects: 0.293541 ms CreateObjectMapping: 0.106417 ms MarkObjects: 2.660958 ms  DeleteObjects: 0.851167 ms)
+Unloading 536 unused Assets to reduce memory usage. Loaded Objects now: 4537.
+Total: 5.304833 ms (FindLiveObjects: 0.506042 ms CreateObjectMapping: 0.107625 ms MarkObjects: 3.532709 ms  DeleteObjects: 1.156708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -394,448 +392,232 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hippopotamus/Materials
-  artifactKey: Guid(ea48f40b3cb4a274f94ccbdd3a6a3e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/Materials using Guid(ea48f40b3cb4a274f94ccbdd3a6a3e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5887b3a546b37c79d3a3441ce13a7b30') in 0.008088 seconds 
-  Import took 0.013038 seconds .
+  path: Assets/npc/ticketbooth/wave.controller
+  artifactKey: Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/wave.controller using Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24e5898229feee092804d14df5a306a') in 0.699101 seconds 
+  Import took 0.706754 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Hippopotamus/source
-  artifactKey: Guid(62568b24926d0fa46a4429522b019cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source using Guid(62568b24926d0fa46a4429522b019cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c19d47a3c8b802d6f95926494cf131') in 0.000641 seconds 
-  Import took 0.005496 seconds .
+  Time since last request: 12.161857 seconds.
+  path: Assets/npc/ticketbooth/wave 1.controller
+  artifactKey: Guid(4b27d0f30c08e493094a87691c743343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/wave 1.controller using Guid(4b27d0f30c08e493094a87691c743343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae613cbb9caa405e0183a54da958440') in 0.015755 seconds 
+  Import took 0.025848 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Hippopotamus/source/Hippopotamus.fbx
-  artifactKey: Guid(b3d5a66a9ded3044ab06fe1d78e047c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/Hippopotamus.fbx using Guid(b3d5a66a9ded3044ab06fe1d78e047c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53acd4059d29bf767307f411e024d31f') in 1.581847 seconds 
-  Import took 1.587702 seconds .
+  Time since last request: 8.843690 seconds.
+  path: Assets/npc/ticketbooth/mixamo.com.anim
+  artifactKey: Guid(a82cb11c72c4144779349776fd9f6ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/mixamo.com.anim using Guid(a82cb11c72c4144779349776fd9f6ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747a8dbd79f70757a69205468d5d0ea4') in 0.320811 seconds 
+  Import took 0.328062 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002762 seconds.
-  path: Assets/Hippopotamus/source/HippopotamusW_Texture.fbx
-  artifactKey: Guid(d5e167fc0f33f7c4c8a12db02abc8d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/HippopotamusW_Texture.fbx using Guid(d5e167fc0f33f7c4c8a12db02abc8d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea71c006d294930c60870376abdff818') in 0.039316 seconds 
-  Import took 0.045489 seconds .
+  Time since last request: 0.899100 seconds.
+  path: Assets/npc/ticketbooth/wave.controller
+  artifactKey: Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/wave.controller using Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d16ce01ff71160b407b7e11e6aafe3f') in 0.005642 seconds 
+  Import took 0.011582 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3689ms)
+		BeginReloadAssembly (323ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (3266ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1910ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (300ms)
+				ProcessInitializeOnLoadAttributes (1578ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 3791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 331.3 MB.
+System memory in use after: 331.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4541.
+Total: 3.345500 ms (FindLiveObjects: 0.352667 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.723750 ms  DeleteObjects: 0.152250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.979708 seconds.
+  path: Assets/npc/ticketbooth/wave.controller
+  artifactKey: Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/wave.controller using Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac29341de0ba1cc7aa8464c2ba28d7') in 0.038997 seconds 
+  Import took 0.048126 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Hippopotamus/source/HippopotamusColor.fbx
-  artifactKey: Guid(0367bf73c48c49b4190b8d7b27121522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/HippopotamusColor.fbx using Guid(0367bf73c48c49b4190b8d7b27121522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27bb44deab30afa30f82030c680cac9') in 0.031391 seconds 
-  Import took 0.036830 seconds .
+  Time since last request: 0.081914 seconds.
+  path: Assets/npc/ticketbooth/wave.controller
+  artifactKey: Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/wave.controller using Guid(176475a5c47fb4020962f6bbe6ede46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac29341de0ba1cc7aa8464c2ba28d7') in 0.013784 seconds 
+  Import took 0.019372 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013210 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3918ms)
+		BeginReloadAssembly (345ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (153ms)
+		EndReloadAssembly (3470ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (2079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (312ms)
+				ProcessInitializeOnLoadAttributes (1733ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+Unloading 3791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 331.6 MB.
+System memory in use after: 331.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4544.
+Total: 4.771291 ms (FindLiveObjects: 1.203917 ms CreateObjectMapping: 0.122417 ms MarkObjects: 3.213291 ms  DeleteObjects: 0.230291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.634401 seconds.
+  path: Assets/npc/ticketbooth/Waving (1).prefab
+  artifactKey: Guid(0c2e2cca3d8c54e3bbf53496b04aa9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/Waving (1).prefab using Guid(0c2e2cca3d8c54e3bbf53496b04aa9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156bdaf0472d3e6e21e18df5f9aed47c') in 0.864959 seconds 
+  Import took 0.889934 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Hippopotamus/Materials/Image_0.mat
-  artifactKey: Guid(de739d080b0d08c4ab6d88c62823cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/Materials/Image_0.mat using Guid(de739d080b0d08c4ab6d88c62823cce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b89128b2f697e0f7b99aebf05152d2') in 0.247407 seconds 
-  Import took 0.252873 seconds .
+  Time since last request: 20.918524 seconds.
+  path: Assets/npc/ticketbooth/Waving (1).prefab
+  artifactKey: Guid(0c2e2cca3d8c54e3bbf53496b04aa9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/ticketbooth/Waving (1).prefab using Guid(0c2e2cca3d8c54e3bbf53496b04aa9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fa668bebd821dc2be965a7e10b8a00') in 0.083104 seconds 
+  Import took 0.093271 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.002350 seconds.
-  path: Assets/Hippopotamus/source/Hippopotamus.blend
-  artifactKey: Guid(fb2f9575cf1e29443a4d5e533fcb69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/Hippopotamus.blend using Guid(fb2f9575cf1e29443a4d5e533fcb69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed616a5cc2ac4d2506c16a44bac50c2') in 0.499871 seconds 
-  Import took 0.505333 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3850ms)
+		BeginReloadAssembly (392ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (162ms)
+		EndReloadAssembly (3348ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (299ms)
+				ProcessInitializeOnLoadAttributes (1600ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (72ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 3791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.3 MB.
+System memory in use after: 353.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 9.288206 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5427840e29343c3a004d3756aff7daa5') in 0.090460 seconds 
-  Import took 0.099969 seconds .
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4592.
+Total: 3.471792 ms (FindLiveObjects: 0.350125 ms CreateObjectMapping: 0.098791 ms MarkObjects: 2.862375 ms  DeleteObjects: 0.159333 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 3.268064 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001193 seconds 
-  Import took 0.009432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.415638 seconds.
-  path: Assets/Tigers
-  artifactKey: Guid(dbdfa7a97beea4deaa9c6a75db1fe0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers using Guid(dbdfa7a97beea4deaa9c6a75db1fe0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9921639f09b29ea207a3531181699cb9') in 0.004314 seconds 
-  Import took 0.013734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001655 seconds.
-  path: Assets/Tigers
-  artifactKey: Guid(dbdfa7a97beea4deaa9c6a75db1fe0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers using Guid(dbdfa7a97beea4deaa9c6a75db1fe0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9921639f09b29ea207a3531181699cb9') in 0.001129 seconds 
-  Import took 0.007351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.481859 seconds.
-  path: Assets/Hippopotamus/textures/Image_0.png
-  artifactKey: Guid(4bd669f70a4d0db42bafce7f1f0e8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/textures/Image_0.png using Guid(4bd669f70a4d0db42bafce7f1f0e8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4065b04dc0a913c7f90ef2734543fd3') in 0.414565 seconds 
-  Import took 0.441012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002273 seconds.
-  path: Assets/Hippopotamus/textures/Material.mat
-  artifactKey: Guid(43f7efdbb133a8548b0537ac31d4f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/textures/Material.mat using Guid(43f7efdbb133a8548b0537ac31d4f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce5e896aad69d70e32dc80600f0e231') in 0.058581 seconds 
-  Import took 0.063144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.525415 seconds.
-  path: Assets/Tigers/cage
-  artifactKey: Guid(ba37cbbed1d264701ad0dcc5d1ceb190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage using Guid(ba37cbbed1d264701ad0dcc5d1ceb190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc890cfcbb38cf39e0aef2f2763ad0e') in 0.003118 seconds 
-  Import took 0.011110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.316325 seconds.
-  path: Assets/Tigers/cage/source
-  artifactKey: Guid(b95adf9f6c1e54ba7abfeb36c5642a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source using Guid(b95adf9f6c1e54ba7abfeb36c5642a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dd9a513eae6b183dfe8fb9423a8c9f') in 0.002189 seconds 
-  Import took 0.010809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.062673 seconds.
-  path: Assets/Tigers/cage/source/Cage.zip
-  artifactKey: Guid(f288b35d2485a49008547b98986f9d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage.zip using Guid(f288b35d2485a49008547b98986f9d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3cd2dec34d3e25613e4715b8af58e6') in 0.109789 seconds 
-  Import took 0.116853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.886298 seconds.
-  path: Assets/Tigers/cage/source/Cage
-  artifactKey: Guid(9bdaf0c6d8b494bb3a1296e644dc5ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage using Guid(9bdaf0c6d8b494bb3a1296e644dc5ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e6341b0b2223f4a080bfeb7049f42') in 0.002042 seconds 
-  Import took 0.021507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046578 seconds.
-  path: Assets/Tigers/cage/source/Cage/cage.fbx
-  artifactKey: Guid(0d4ef2a2444b4482294f314b58d3861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage/cage.fbx using Guid(0d4ef2a2444b4482294f314b58d3861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b7abd206b8a0a2a5a7f70d61934fd9') in 0.047271 seconds 
-  Import took 0.053357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_OcclusionRoughnessMetallic.png
-  artifactKey: Guid(521307da2843b43c69133c21d734426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_OcclusionRoughnessMetallic.png using Guid(521307da2843b43c69133c21d734426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a52ea8d0c6533e1f5f0ebc97abb5b4') in 0.011678 seconds 
-  Import took 0.016796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(7c811b21170f84c42aa71930f8ad3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_BaseColor.png using Guid(7c811b21170f84c42aa71930f8ad3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56361da091f4948d98955a49f9fea27a') in 0.009414 seconds 
-  Import took 0.015381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_Normal.png
-  artifactKey: Guid(f761fb81c9e00404db97c943ec2b7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_Normal.png using Guid(f761fb81c9e00404db97c943ec2b7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70528817116e3005e7ea3b7362f860d') in 0.010471 seconds 
-  Import took 0.015898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073189 seconds.
-  path: Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_Normal.png
-  artifactKey: Guid(f761fb81c9e00404db97c943ec2b7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/source/Cage/cage_DefaultMaterial_Normal.png using Guid(f761fb81c9e00404db97c943ec2b7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70528817116e3005e7ea3b7362f860d') in 0.009939 seconds 
-  Import took 0.015834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.629796 seconds.
-  path: Assets/Tigers/cage/textures
-  artifactKey: Guid(90f9a15b7df8747f1ba70c4c0ce1c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/textures using Guid(90f9a15b7df8747f1ba70c4c0ce1c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cd8f085dde9b051b3a95e0c30d7d17') in 0.001505 seconds 
-  Import took 0.010020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087379 seconds.
-  path: Assets/Tigers/cage/textures/cage_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(2303c22330d6c4e1fb7444048f42ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/textures/cage_DefaultMaterial_BaseColor.png using Guid(2303c22330d6c4e1fb7444048f42ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d52585725d33744775538a34d2c7b62') in 0.011072 seconds 
-  Import took 0.016701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Tigers/cage/textures/cage_DefaultMaterial_Normal.png
-  artifactKey: Guid(63f14388464b24ba3bb50e9d73841de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/textures/cage_DefaultMaterial_Normal.png using Guid(63f14388464b24ba3bb50e9d73841de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e51f8eb0751fa618ce4f5f33a907a11') in 0.009933 seconds 
-  Import took 0.014889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Tigers/cage/textures/cage_DefaultMaterial_OcclusionRoughnessMetallic.png
-  artifactKey: Guid(bed3d4b79c9194c41b89fda8dc2fe855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/cage/textures/cage_DefaultMaterial_OcclusionRoughnessMetallic.png using Guid(bed3d4b79c9194c41b89fda8dc2fe855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ef74de7d5bdb9f7c422e5d8579e764') in 0.009402 seconds 
-  Import took 0.014403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.912941 seconds.
-  path: Assets/Tigers/jail-cage/source
-  artifactKey: Guid(e7b1dc4205c8b49d794038367905c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/source using Guid(e7b1dc4205c8b49d794038367905c0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b181ce5fa8a66ce1121a226ca4764766') in 0.001312 seconds 
-  Import took 0.009932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096982 seconds.
-  path: Assets/Tigers/jail-cage/source/cage.blend
-  artifactKey: Guid(e71a916a9dfbe4d1db303a98db593435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/source/cage.blend using Guid(e71a916a9dfbe4d1db303a98db593435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548f9ba417444ccd00ced54c65d23e58') in 0.046530 seconds 
-  Import took 0.052582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 198.015531 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source
-  artifactKey: Guid(7df2274c883f74df2b9da57a2666fafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source using Guid(7df2274c883f74df2b9da57a2666fafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7ab04b48ee4a14ece1d8677f02fc5') in 0.001612 seconds 
-  Import took 0.023785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.524807 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb.zip
-  artifactKey: Guid(ae646bbea8b3a4f4aa19d0731ac74865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb.zip using Guid(ae646bbea8b3a4f4aa19d0731ac74865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd94568eb79e7b6325a7f1edefa2246') in 0.025093 seconds 
-  Import took 0.035949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001055 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb.zip
-  artifactKey: Guid(ae646bbea8b3a4f4aa19d0731ac74865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb.zip using Guid(ae646bbea8b3a4f4aa19d0731ac74865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd94568eb79e7b6325a7f1edefa2246') in 0.002756 seconds 
-  Import took 0.008941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.398798 seconds.
-  path: Assets/Tigers/tiger-walk-v02/source
-  artifactKey: Guid(f08affb9d705c4ff48473c04886f2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/source using Guid(f08affb9d705c4ff48473c04886f2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3e7466951be5e1693102505f7e7650') in 0.001203 seconds 
-  Import took 0.008991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.674690 seconds.
-  path: Assets/Tigers/tiger-walk-v02/source/Unity2Skfb.zip
-  artifactKey: Guid(04d8ddbeebda348068cef678c7b9a98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/source/Unity2Skfb.zip using Guid(04d8ddbeebda348068cef678c7b9a98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80adb7c44e708ed5bf3cb6e662534824') in 0.003578 seconds 
-  Import took 0.011585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.361397 seconds.
-  path: Assets/Tigers/tiger-walk-v02/source/Unity2Skfb
-  artifactKey: Guid(65cf7f47842624d36bad5900748a19e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/source/Unity2Skfb using Guid(65cf7f47842624d36bad5900748a19e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f60060e84b9191e95f1dfd5e7a1038') in 0.001823 seconds 
-  Import took 0.009715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059376 seconds.
-  path: Assets/Tigers/tiger-walk-v02/source/Unity2Skfb/17996_FbxTemp_0003.jpg
-  artifactKey: Guid(561b62d76ce984153a26e624fca54216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/source/Unity2Skfb/17996_FbxTemp_0003.jpg using Guid(561b62d76ce984153a26e624fca54216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfddada2a06c721a3732337e7e3a4a9') in 0.388310 seconds 
-  Import took 0.396214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002113 seconds.
-  path: Assets/Tigers/tiger-walk-v02/source/Unity2Skfb/78004_FbxTemp_0002.png
-  artifactKey: Guid(7d52dbd02a2174b2e96af27a2030346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/source/Unity2Skfb/78004_FbxTemp_0002.png using Guid(7d52dbd02a2174b2e96af27a2030346d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec73d7c2cebdb3ff193a54478d26377') in 0.008716 seconds 
-  Import took 0.014512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.510161 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb
-  artifactKey: Guid(241ba81168752430caa87e3f39b1d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb using Guid(241ba81168752430caa87e3f39b1d7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b352782be956e258f462d82c985c20') in 0.001090 seconds 
-  Import took 0.008848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042806 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/17996_FbxTemp_0003.jpg
-  artifactKey: Guid(c7bf3d490e6a84fa5a52541eafd3ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/17996_FbxTemp_0003.jpg using Guid(c7bf3d490e6a84fa5a52541eafd3ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82782f52e7c0afcaa8a7cc90a514214b') in 0.007427 seconds 
-  Import took 0.012883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/107060_FbxTemp_0002.png
-  artifactKey: Guid(6eb19ad76993f43dcbdd69f62df98917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/107060_FbxTemp_0002.png using Guid(6eb19ad76993f43dcbdd69f62df98917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea34b8a690fe3b593f57f237a640469') in 0.006993 seconds 
-  Import took 0.011602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.504913 seconds.
-  path: Assets/Tigers/tiger-howl-v04/textures/17996_FbxTemp_0003.jpeg
-  artifactKey: Guid(1856104175c2a465ea989694bb6cd4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/textures/17996_FbxTemp_0003.jpeg using Guid(1856104175c2a465ea989694bb6cd4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428ef125db1fc7acd656c82db135041a') in 0.393727 seconds 
-  Import took 0.403929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002026 seconds.
-  path: Assets/Tigers/tiger-howl-v04/textures/Tiger_O.jpg
-  artifactKey: Guid(0deefeed1ff95457aa7518a2f4c748a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/textures/Tiger_O.jpg using Guid(0deefeed1ff95457aa7518a2f4c748a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024ed88dba4d477e0713a4ab2676b718') in 0.008194 seconds 
-  Import took 0.013125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Tigers/tiger-howl-v04/textures/107060_FbxTemp_0002.png
-  artifactKey: Guid(80977010798cb48348425a54ef56b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/textures/107060_FbxTemp_0002.png using Guid(80977010798cb48348425a54ef56b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb4dd8840f9526f2e3589002192b6b8') in 0.027047 seconds 
-  Import took 0.032448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.454206 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/Unity2Skfb.bin
-  artifactKey: Guid(a20df60e8549641f4a7f45d928b49c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/Unity2Skfb.bin using Guid(a20df60e8549641f4a7f45d928b49c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1ea570ba2dc0e426a3854558db5592') in 0.075389 seconds 
-  Import took 0.082566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.590233 seconds.
-  path: Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/Unity2Skfb.gltf
-  artifactKey: Guid(7f2a7079b680a4519aeed637a2e71627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/source/Unity2Skfb/Unity2Skfb.gltf using Guid(7f2a7079b680a4519aeed637a2e71627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4b63f5bae8e2b2e0424c3a34248a20') in 0.088870 seconds 
-  Import took 0.097553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.439552 seconds.
-  path: Assets/Tigers/tiger-walk-v02/textures/17996_FbxTemp_0003.jpeg
-  artifactKey: Guid(2f459367d66de4f3fab1a50268178157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/textures/17996_FbxTemp_0003.jpeg using Guid(2f459367d66de4f3fab1a50268178157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd9172b79cacc0251e460b827764ad5') in 0.020519 seconds 
-  Import took 0.028801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Tigers/tiger-walk-v02/textures/Tiger_O.jpg
-  artifactKey: Guid(99ce2d63deed14b46b0334d20212ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/textures/Tiger_O.jpg using Guid(99ce2d63deed14b46b0334d20212ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c93df387ff9b9412bc9495f6450a2bb') in 0.008753 seconds 
-  Import took 0.014723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Tigers/tiger-walk-v02/textures/FbxTemp_0002.jpg
-  artifactKey: Guid(587ad490c7ebc4d16ad2b92a09a870a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-walk-v02/textures/FbxTemp_0002.jpg using Guid(587ad490c7ebc4d16ad2b92a09a870a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bb4e8626905d4dc7881bf59ba2317e') in 0.009442 seconds 
-  Import took 0.015492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 294.581756 seconds.
-  path: Assets/Tigers/tiger-howl-v04/New Prefab.prefab
-  artifactKey: Guid(ddf8b86a74aee466287e0f09190b800f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/New Prefab.prefab using Guid(ddf8b86a74aee466287e0f09190b800f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f97491af4d1334ad8145c0bf02c1fc') in 0.104374 seconds 
-  Import took 0.124028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.283463 seconds.
-  path: Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(a4ce60faf5ad041959f5adfd662a5827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_BaseColor.png using Guid(a4ce60faf5ad041959f5adfd662a5827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4be49d269fc0c747bd86fa2499d4c31') in 0.018061 seconds 
-  Import took 0.026446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Roughness.png
-  artifactKey: Guid(f23c6e25b1b854231b38129f1d36ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Roughness.png using Guid(f23c6e25b1b854231b38129f1d36ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd607e858c8dbe3ddc08ab333029cfcda') in 0.009434 seconds 
-  Import took 0.016216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Normal.png
-  artifactKey: Guid(157ce81c8772c4dd8892a5f9b56b8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Normal.png using Guid(157ce81c8772c4dd8892a5f9b56b8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46f605ce1886d98df41f2cd17f00351') in 0.010688 seconds 
-  Import took 0.016805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Metallic.png
-  artifactKey: Guid(633a7790654fe4669aed904f1e466c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Metallic.png using Guid(633a7790654fe4669aed904f1e466c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d854f1c91c755b57a9caceaa6047ee') in 0.007381 seconds 
-  Import took 0.012474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005417 seconds.
-  path: Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Normal.png
-  artifactKey: Guid(157ce81c8772c4dd8892a5f9b56b8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/jail-cage/textures/cage_DefaultMaterial_Normal.png using Guid(157ce81c8772c4dd8892a5f9b56b8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46f605ce1886d98df41f2cd17f00351') in 0.006187 seconds 
-  Import took 0.011325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.746874 seconds.
-  path: Assets/Tigers/tiger-howl-v04
-  artifactKey: Guid(6c07b6d21520d4c0ab894cf217bedbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04 using Guid(6c07b6d21520d4c0ab894cf217bedbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8305fa3fc6eda0a0b53e8e31f46aaa0b') in 0.002993 seconds 
-  Import took 0.055932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.255640 seconds.
-  path: Assets/Tigers/tiger-howl-v04/textures
-  artifactKey: Guid(3a580a5364607490488f2a4a093bf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-howl-v04/textures using Guid(3a580a5364607490488f2a4a093bf60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7982b5b0d40b2b5b8a8d779e113b09') in 0.001212 seconds 
-  Import took 0.010628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 598.002997 seconds.
-  path: Assets/Scenes/tiger.unity
-  artifactKey: Guid(b8384423f72724a69a74085bb2662efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/tiger.unity using Guid(b8384423f72724a69a74085bb2662efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd862d54dae702d9f7f1d48dfd17bd71c') in 0.014039 seconds 
-  Import took 0.036525 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
