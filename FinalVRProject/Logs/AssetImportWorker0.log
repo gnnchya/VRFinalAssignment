@@ -15,12 +15,12 @@ C:/ARVRZoo/VRFinalAssignment/FinalVRProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51279
+63774
 Successfully changed project path to: C:/ARVRZoo/VRFinalAssignment/FinalVRProject
 C:/ARVRZoo/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 291.34 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 5.48 ms.
+Refreshing native plugins compatible for Editor in 283.48 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 4.41 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/ARVRZoo/VRFinalAssignment/FinalVRProject/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008482 seconds.
+Registered in 0.009275 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 132.99 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 205.18 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.060 seconds
+- Completed reload, in 11.289 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7061ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (11290ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (788ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (549ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (133ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (206ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.037236 seconds.
+Registered in 0.064227 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 138.67 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 176.54 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -332,45 +332,45 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 [Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
 
-- Completed reload, in  3.986 seconds
+- Completed reload, in  3.792 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3989ms)
-		BeginReloadAssembly (265ms)
+	ReloadAssembly (3795ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (3602ms)
-			LoadAssemblies (259ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (3358ms)
+			LoadAssemblies (306ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (900ms)
+			SetupTypeCache (696ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (159ms)
-			SetupLoadedEditorAssemblies (1648ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1641ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (207ms)
-				ProcessInitializeOnLoadAttributes (1245ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (1215ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
 Unloading 4004 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.4 MB.
-System memory in use after: 214.4 MB.
+System memory in use before: 214.6 MB.
+System memory in use after: 214.6 MB.
 
-Unloading 178 unused Assets to reduce memory usage. Loaded Objects now: 4503.
-Total: 9.606400 ms (FindLiveObjects: 0.686300 ms CreateObjectMapping: 0.330000 ms MarkObjects: 7.893000 ms  DeleteObjects: 0.694600 ms)
+Unloading 196 unused Assets to reduce memory usage. Loaded Objects now: 4503.
+Total: 11.399300 ms (FindLiveObjects: 0.786200 ms CreateObjectMapping: 0.315500 ms MarkObjects: 9.424200 ms  DeleteObjects: 0.870500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -384,89 +384,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hippopotamus.blend
-  artifactKey: Guid(4ec26f3cbe40cad4e91f694a3c0b9786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus.blend using Guid(4ec26f3cbe40cad4e91f694a3c0b9786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3611ab80dd2c6052a120de874352cd') in 0.439877 seconds 
-  Import took 0.452736 seconds .
+  path: Assets/Prefabs/Hippo/node_id30 (2).prefab
+  artifactKey: Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hippo/node_id30 (2).prefab using Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e88a234f9e79db8b3af16dc4017093') in 0.494227 seconds 
+  Import took 0.506881 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 128.529170 seconds.
-  path: Assets/Hippopotamus
-  artifactKey: Guid(4a65dd008c57bd747b470685972282f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus using Guid(4a65dd008c57bd747b470685972282f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a38ab96af92d1330f8934932fdc9aa') in 0.015718 seconds 
-  Import took 0.034399 seconds .
+  Time since last request: 5.462944 seconds.
+  path: Assets/Prefabs/Hippo/Hippopo.prefab
+  artifactKey: Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hippo/Hippopo.prefab using Guid(7e41f91af232a5b4a94415f567496c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54be575ee3e73919d69edf9394add990') in 0.051429 seconds 
+  Import took 0.064431 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.158152 seconds.
-  path: Assets/Hippopotamus/textures
-  artifactKey: Guid(46b4feb1e4005fd4aac50c8119966f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/textures using Guid(46b4feb1e4005fd4aac50c8119966f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bcbbcf22e765fbb7117af59830797e') in 0.030171 seconds 
-  Import took 0.042761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.728982 seconds.
-  path: Assets/Hippopotamus/source
-  artifactKey: Guid(62568b24926d0fa46a4429522b019cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source using Guid(62568b24926d0fa46a4429522b019cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c19d47a3c8b802d6f95926494cf131') in 0.032412 seconds 
-  Import took 0.046477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037529 seconds.
-  path: Assets/Hippopotamus/source/Hippopotamus.blend
-  artifactKey: Guid(fb2f9575cf1e29443a4d5e533fcb69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/Hippopotamus.blend using Guid(fb2f9575cf1e29443a4d5e533fcb69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a6fe2139653be18b57675440831f00') in 0.085401 seconds 
-  Import took 0.100091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/Hippopotamus/source/Hippopotamus.fbx
-  artifactKey: Guid(b3d5a66a9ded3044ab06fe1d78e047c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/Hippopotamus.fbx using Guid(b3d5a66a9ded3044ab06fe1d78e047c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efe719aa58ca25687df713226e98c68') in 0.089925 seconds 
-  Import took 0.100531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Hippopotamus/source/HippopotamusW_Texture.fbx
-  artifactKey: Guid(d5e167fc0f33f7c4c8a12db02abc8d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/HippopotamusW_Texture.fbx using Guid(d5e167fc0f33f7c4c8a12db02abc8d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e536b89129fad5472249297c02c1f') in 0.081157 seconds 
-  Import took 0.092369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/Hippopotamus/source/HippopotamusColor.fbx
-  artifactKey: Guid(0367bf73c48c49b4190b8d7b27121522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/HippopotamusColor.fbx using Guid(0367bf73c48c49b4190b8d7b27121522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6456505020e6e082247c348ca89be9f') in 0.082082 seconds 
-  Import took 0.094136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.981307 seconds.
-  path: Assets/Hippopotamus/textures/Image_0.png
-  artifactKey: Guid(4bd669f70a4d0db42bafce7f1f0e8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/textures/Image_0.png using Guid(4bd669f70a4d0db42bafce7f1f0e8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4065b04dc0a913c7f90ef2734543fd3') in 0.074531 seconds 
-  Import took 0.103305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.378293 seconds.
-  path: Assets/Hippopotamus/source/Hippopotamus.blend1
-  artifactKey: Guid(5f9016d69baadab4483530addeeb2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/Hippopotamus.blend1 using Guid(5f9016d69baadab4483530addeeb2fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1227385a6496c8feede99a0aef20c3e') in 0.018922 seconds 
-  Import took 0.041699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.839637 seconds.
-  path: Assets/Hippopotamus/textures/Material.mat
-  artifactKey: Guid(43f7efdbb133a8548b0537ac31d4f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/textures/Material.mat using Guid(43f7efdbb133a8548b0537ac31d4f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc1c96c09e15eeab8cada3e4fb1509b') in 0.052246 seconds 
-  Import took 0.067856 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
