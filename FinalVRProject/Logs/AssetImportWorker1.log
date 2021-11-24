@@ -1,0 +1,881 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/user/Documents/GitHub/VRFinalAssignment/FinalVRProject
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59236
+Successfully changed project path to: C:/Users/user/Documents/GitHub/VRFinalAssignment/FinalVRProject
+C:/Users/user/Documents/GitHub/VRFinalAssignment/FinalVRProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 148.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.60 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/VRFinalAssignment/FinalVRProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002466 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.35 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3648ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VRFinalAssignment\FinalVRProject\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VRFinalAssignment\FinalVRProject\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXR Package Settings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs:188)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:274)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:OnAssemblyReload () (at Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:30)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[Library/PackageCache/com.unity.xr.openxr@1.2.3/Editor/FeatureSupport/FeatureHelpers.cs line 188]
+
+- Completed reload, in  6.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6374ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (6128ms)
+			LoadAssemblies (3843ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (997ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 4165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.0 MB.
+System memory in use after: 209.9 MB.
+
+Unloading 243 unused Assets to reduce memory usage. Loaded Objects now: 4653.
+Total: 8.640200 ms (FindLiveObjects: 0.489800 ms CreateObjectMapping: 0.124900 ms MarkObjects: 7.370500 ms  DeleteObjects: 0.652300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Water.mat
+  artifactKey: Guid(c7c3b582bae78024fb50ea63176cff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water.mat using Guid(c7c3b582bae78024fb50ea63176cff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c694b300a1b66fcc4a8de63950c620f') in 0.842408 seconds 
+  Import took 0.850621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Fence.mat
+  artifactKey: Guid(c78fa065ede1f8b48acb1ec4e8fc2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence.mat using Guid(c78fa065ede1f8b48acb1ec4e8fc2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3401baf6b5999d3ed04b6545cfe6072b') in 0.512392 seconds 
+  Import took 0.519604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TerrainData_d95db2f6-7bf2-4055-b70c-58d3bc66e5b5.asset
+  artifactKey: Guid(c4bef3e65217642589458f44fdd54014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_d95db2f6-7bf2-4055-b70c-58d3bc66e5b5.asset using Guid(c4bef3e65217642589458f44fdd54014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97f554fa06ef2d9ccae83f663671370') in 0.053074 seconds 
+  Import took 0.061830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TerrainData_6c0350f2-c4ac-47b1-b539-46d6d85422a8.asset
+  artifactKey: Guid(b472b854be9b54eff89c1048b3c57ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_6c0350f2-c4ac-47b1-b539-46d6d85422a8.asset using Guid(b472b854be9b54eff89c1048b3c57ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f41f552e43b622b11b7a21ccd9f59c') in 0.031536 seconds 
+  Import took 0.039403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a8ead1347f06a68927a8d74f363b6e') in 0.084575 seconds 
+  Import took 0.099451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001358 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(7ab78910fe38c450496e53241ac65b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(7ab78910fe38c450496e53241ac65b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf77fc5ba9d52ef6052bec585f0a68b') in 0.031507 seconds 
+  Import took 0.041077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/TerrainData_53baef74-d9d1-486c-9c11-386abd70729c.asset
+  artifactKey: Guid(caefcd78bea2b47a59efe743ccf44be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_53baef74-d9d1-486c-9c11-386abd70729c.asset using Guid(caefcd78bea2b47a59efe743ccf44be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cf2770415110999f9164b6e06da653') in 0.023903 seconds 
+  Import took 0.032062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.726667 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3f3982eb39a1c776df3167aef9964d') in 0.009299 seconds 
+  Import took 0.017879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019657 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3f3982eb39a1c776df3167aef9964d') in 0.002475 seconds 
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618605 seconds.
+  path: Assets/Scenes/bird.unity
+  artifactKey: Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/bird.unity using Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5274667911549dc32ad352e904f6dcf') in 0.010395 seconds 
+  Import took 0.018740 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VRFinalAssignment\FinalVRProject\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VRFinalAssignment\FinalVRProject\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1815ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1583ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (840ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (718ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 198.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4749.
+Total: 6.468100 ms (FindLiveObjects: 0.527300 ms CreateObjectMapping: 0.174700 ms MarkObjects: 5.604500 ms  DeleteObjects: 0.159400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187.862838 seconds.
+  path: Assets/Scenes/bird.unity
+  artifactKey: Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/bird.unity using Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edddf104e9878d799174c3661ca26fa4') in 0.039093 seconds 
+  Import took 0.050403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034392 seconds.
+  path: Assets/Scenes/bird.unity
+  artifactKey: Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/bird.unity using Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edddf104e9878d799174c3661ca26fa4') in 0.003034 seconds 
+  Import took 0.012411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.519217 seconds.
+  path: Assets/birdcage/bird models
+  artifactKey: Guid(105477ed31501e545b359f7a5cd7c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models using Guid(105477ed31501e545b359f7a5cd7c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c957740fac3315e6e517f5dc165ac3') in 0.006938 seconds 
+  Import took 0.022710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.229513 seconds.
+  path: Assets/birdcage/bird models/nongguag
+  artifactKey: Guid(f8ad4aa7f8e882647a1db2889e5604ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/nongguag using Guid(f8ad4aa7f8e882647a1db2889e5604ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8912c11d9c47a1efb2e5f695eea9d1f0') in 0.007956 seconds 
+  Import took 0.025052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039004 seconds.
+  path: Assets/birdcage/bird models/nongguag/12260_Bird_Toucan_Diffuse.jpg
+  artifactKey: Guid(a36ad87a5e532154084cbff7ea8dc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/nongguag/12260_Bird_Toucan_Diffuse.jpg using Guid(a36ad87a5e532154084cbff7ea8dc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6012daee6a517b366fefefe110e7615c') in 0.035823 seconds 
+  Import took 0.044418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/birdcage/bird models/nongguag/12260_Bird_Toucan_v3_l2.obj
+  artifactKey: Guid(7db26a889094ce741a797ba92852ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/nongguag/12260_Bird_Toucan_v3_l2.obj using Guid(7db26a889094ce741a797ba92852ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baa733cdf427b9892d5df776921ab52') in 0.755506 seconds 
+  Import took 0.762319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.306884 seconds.
+  path: Assets/birdcage/bird models/whitebigduck
+  artifactKey: Guid(b28bd002c43f18b4485a3b368a1edb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck using Guid(b28bd002c43f18b4485a3b368a1edb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c343d97c963089e3595c8e80149de4') in 0.008785 seconds 
+  Import took 0.016196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.120110 seconds.
+  path: Assets/birdcage/bird models/nongguag/12260_Bird_Toucan_Diffuse.jpg
+  artifactKey: Guid(a36ad87a5e532154084cbff7ea8dc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/nongguag/12260_Bird_Toucan_Diffuse.jpg using Guid(a36ad87a5e532154084cbff7ea8dc313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c7bf33c46edd5f51a17a826c0fb923') in 0.047441 seconds 
+  Import took 0.055409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.762617 seconds.
+  path: Assets/birdcage/bird models/nongguag/Materials
+  artifactKey: Guid(693881f86f9d55f4a9376b16e0f313fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/nongguag/Materials using Guid(693881f86f9d55f4a9376b16e0f313fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d31ce1702b132e424596e07d23bbb') in 0.008023 seconds 
+  Import took 0.017837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050168 seconds.
+  path: Assets/birdcage/bird models/nongguag/Materials/12260_Bird_Toucan_Diffuse.mat
+  artifactKey: Guid(d30e5bb1790a90844a36203273975c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/nongguag/Materials/12260_Bird_Toucan_Diffuse.mat using Guid(d30e5bb1790a90844a36203273975c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d2f39a99facbd048040ad5805593f4') in 0.015699 seconds 
+  Import took 0.023153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.925375 seconds.
+  path: Assets/birdcage/bird models/whitebigduck/12244_Bird_diff.jpg
+  artifactKey: Guid(6f1d81ff0cb68814b88721fe7d8cef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck/12244_Bird_diff.jpg using Guid(6f1d81ff0cb68814b88721fe7d8cef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6676d81753a4bd260ec4e99010afe48d') in 0.019125 seconds 
+  Import took 0.027070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/birdcage/bird models/whitebigduck/12244_Bird_v1_L2.obj
+  artifactKey: Guid(2d853f7cca159904ea19f984283eda88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck/12244_Bird_v1_L2.obj using Guid(2d853f7cca159904ea19f984283eda88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1de607a834bdcfdfaf83beccbcb370') in 0.083395 seconds 
+  Import took 0.090509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.332023 seconds.
+  path: Assets/birdcage/bird models/whiteparrot/12259_bird_diffuse.jpg
+  artifactKey: Guid(a508af115ad218541ab20048b56195f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whiteparrot/12259_bird_diffuse.jpg using Guid(a508af115ad218541ab20048b56195f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5efe8395442db7d594869a8b761acc') in 0.020256 seconds 
+  Import took 0.027624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/birdcage/bird models/whiteparrot/12259_Bird_v1_L2.obj
+  artifactKey: Guid(0bb4db96bbf93184998dd088eb68f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whiteparrot/12259_Bird_v1_L2.obj using Guid(0bb4db96bbf93184998dd088eb68f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33310acc23238cf29706bc28bba9762a') in 0.084207 seconds 
+  Import took 0.092765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442886 seconds.
+  path: Assets/birdcage/bird models/yellow bird/12214_Bird_diffuse.jpg
+  artifactKey: Guid(2f588a54e9ef63042809c3011ebca772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/yellow bird/12214_Bird_diffuse.jpg using Guid(2f588a54e9ef63042809c3011ebca772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a534d751806392964a0aa1a97a6b5c9') in 0.017551 seconds 
+  Import took 0.024639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/birdcage/bird models/yellow bird/12214_Bird_v1max_l3.obj
+  artifactKey: Guid(d8b6043f0b00a434cac3423dcd062dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/yellow bird/12214_Bird_v1max_l3.obj using Guid(d8b6043f0b00a434cac3423dcd062dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acd3774e1e9d8e789ecf636dbe5da2d') in 0.078630 seconds 
+  Import took 0.085230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.952449 seconds.
+  path: Assets/birdcage/bird models/whiteparrot/Materials
+  artifactKey: Guid(c761449c5e11afa418d6b80b607d45b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whiteparrot/Materials using Guid(c761449c5e11afa418d6b80b607d45b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a58c6d2e6d7b6f66e1efbf9e0754b30') in 0.002190 seconds 
+  Import took 0.011566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/birdcage/bird models/whiteparrot/Materials
+  artifactKey: Guid(c761449c5e11afa418d6b80b607d45b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whiteparrot/Materials using Guid(c761449c5e11afa418d6b80b607d45b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a58c6d2e6d7b6f66e1efbf9e0754b30') in 0.004239 seconds 
+  Import took 0.012149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898903 seconds.
+  path: Assets/birdcage/bird models/whiteparrot/Materials/12259_bird_diffuse.mat
+  artifactKey: Guid(4432cdc7b4a4fda47b32e0ed41bfd9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whiteparrot/Materials/12259_bird_diffuse.mat using Guid(4432cdc7b4a4fda47b32e0ed41bfd9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f768797e3f0d8516b5028a92be2c6fc') in 0.011723 seconds 
+  Import took 0.025962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.365830 seconds.
+  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_diff.jpg
+  artifactKey: Guid(83601050ec2ffb843835116b80fa7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_diff.jpg using Guid(83601050ec2ffb843835116b80fa7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07251c8468cf0f02f3277b20bd5add7e') in 0.017451 seconds 
+  Import took 0.025831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj
+  artifactKey: Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj using Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32b5c8496c0ab1fba0a5daacb519005') in 0.102305 seconds 
+  Import took 0.109198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.609410 seconds.
+  path: Assets/birdcage/bird models/ducklesscolor/Materials
+  artifactKey: Guid(2b90894de69eba946b786f3f9f01282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/ducklesscolor/Materials using Guid(2b90894de69eba946b786f3f9f01282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8206b581ad661402f434b6a5cef6edb') in 0.004926 seconds 
+  Import took 0.012929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044665 seconds.
+  path: Assets/birdcage/bird models/ducklesscolor/Materials/12249_Bird_v1_diff.mat
+  artifactKey: Guid(08e068e427c6ad948be1796d5cee4626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/ducklesscolor/Materials/12249_Bird_v1_diff.mat using Guid(08e068e427c6ad948be1796d5cee4626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64007938363a4303bea45211b382512') in 0.011996 seconds 
+  Import took 0.019506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.120183 seconds.
+  path: Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_diff.jpg
+  artifactKey: Guid(f18a1b1250459974788407607c2469e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_diff.jpg using Guid(f18a1b1250459974788407607c2469e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5ea2d6b5d996a1ae33f82434189c0') in 0.022469 seconds 
+  Import took 0.029720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj
+  artifactKey: Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj using Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6ed2b9d9dc237bb995adfa6fa5bb67') in 0.050129 seconds 
+  Import took 0.057360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.529017 seconds.
+  path: Assets/birdcage/bird models/greenheadduck/Materials
+  artifactKey: Guid(b00cf6d3d1c9ecc4aa74ff76709d82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/greenheadduck/Materials using Guid(b00cf6d3d1c9ecc4aa74ff76709d82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0009aa4baaacf3828099161481231df9') in 0.003006 seconds 
+  Import took 0.017439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050786 seconds.
+  path: Assets/birdcage/bird models/greenheadduck/Materials/12248_Bird_v1_diff.mat
+  artifactKey: Guid(65e8a1cd81249214194e29fdb2b738ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/greenheadduck/Materials/12248_Bird_v1_diff.mat using Guid(65e8a1cd81249214194e29fdb2b738ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18b63647343a420f8c2367efcd6c9c2') in 0.011954 seconds 
+  Import took 0.019365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.241895 seconds.
+  path: Assets/birdcage/bird models/whitebigduck/Materials
+  artifactKey: Guid(11ce82a31a2326e4e8d826eb4fb65019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck/Materials using Guid(11ce82a31a2326e4e8d826eb4fb65019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa7dfb1c55679c6ca6c41045b509a12') in 0.003399 seconds 
+  Import took 0.013573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/birdcage/bird models/whitebigduck/Materials
+  artifactKey: Guid(11ce82a31a2326e4e8d826eb4fb65019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck/Materials using Guid(11ce82a31a2326e4e8d826eb4fb65019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa7dfb1c55679c6ca6c41045b509a12') in 0.003427 seconds 
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.656078 seconds.
+  path: Assets/birdcage/bird models/whitebigduck/Materials/12244_Bird_diff.mat
+  artifactKey: Guid(8992adf5b5e03b34cb536cd33b2248ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck/Materials/12244_Bird_diff.mat using Guid(8992adf5b5e03b34cb536cd33b2248ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a763f9310f0c1e146e8c82f07bd779') in 0.011129 seconds 
+  Import took 0.018090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.027214 seconds.
+  path: Assets/birdcage/bird models/whitebigduck 1
+  artifactKey: Guid(34645200f89fbfe43a0f63477411b088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck 1 using Guid(34645200f89fbfe43a0f63477411b088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782ec4fea4ca39c485872c2860f67f21') in 0.008392 seconds 
+  Import took 0.023827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054337 seconds.
+  path: Assets/birdcage/bird models/whitebigduck 1/12244_Bird_diff.jpg
+  artifactKey: Guid(8d3943b21ada33c459663692de701571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck 1/12244_Bird_diff.jpg using Guid(8d3943b21ada33c459663692de701571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c33f379e7b61eecd9b252babd3d67b8') in 0.015868 seconds 
+  Import took 0.023177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/birdcage/bird models/whitebigduck 1/12244_Bird_v1_L2.obj
+  artifactKey: Guid(c025099d8029bd54193efed12fbcdc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/whitebigduck 1/12244_Bird_v1_L2.obj using Guid(c025099d8029bd54193efed12fbcdc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9799e67ea5930e30db189006ffa9808b') in 0.075920 seconds 
+  Import took 0.082795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.137288 seconds.
+  path: Assets/birdcage/bird models/ducklesscolor
+  artifactKey: Guid(e4384040b0374c148a746e055a7e16b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/birdcage/bird models/ducklesscolor using Guid(e4384040b0374c148a746e055a7e16b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca91480b16d8da6ecc55e4015f79e19f') in 0.008230 seconds 
+  Import took 0.023571 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VRFinalAssignment\FinalVRProject\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VRFinalAssignment\FinalVRProject\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2026ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (1660ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (847ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (722ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.5 MB.
+System memory in use after: 198.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 4787.
+Total: 5.960100 ms (FindLiveObjects: 0.469900 ms CreateObjectMapping: 0.167500 ms MarkObjects: 5.089100 ms  DeleteObjects: 0.231800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
