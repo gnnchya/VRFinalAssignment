@@ -22,68 +22,68 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54701
+55133
 Successfully changed project path to: /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 239.13 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 17.10 ms.
+Refreshing native plugins compatible for Editor in 216.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 21.63 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-24 20:19:35.606 Unity[96398:6994346] (null) preferred device: Apple M1 (high power)
-2021-11-24 20:19:35.606 Unity[96398:6994346] Metal devices available: 1
-2021-11-24 20:19:35.606 Unity[96398:6994346] 0: Apple M1 (high power)
-2021-11-24 20:19:35.606 Unity[96398:6994346] Using device Apple M1 (high power)
+2021-11-24 21:58:15.092 Unity[732:7064848] (null) preferred device: Apple M1 (high power)
+2021-11-24 21:58:15.092 Unity[732:7064848] Metal devices available: 1
+2021-11-24 21:58:15.092 Unity[732:7064848] 0: Apple M1 (high power)
+2021-11-24 21:58:15.093 Unity[732:7064848] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56398
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001315 seconds.
+Registered in 0.001244 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 99.71 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 106.69 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.384 seconds
+- Completed reload, in  2.918 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2384ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (2918ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1127ms)
-			LoadAssemblies (136ms)
+		EndReloadAssembly (1362ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (668ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (916ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007932 seconds.
+Registered in 0.007941 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 104.14 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.39 ms.
+Refreshing native plugins compatible for Editor in 98.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
 Mono: successfully reloaded assembly
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -319,37 +319,37 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buil
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
-- Completed reload, in  4.041 seconds
+- Completed reload, in  4.432 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4043ms)
-		BeginReloadAssembly (305ms)
+	ReloadAssembly (4435ms)
+		BeginReloadAssembly (314ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (40ms)
+			DisableScriptedObjects (36ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (3635ms)
-			LoadAssemblies (256ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (4011ms)
+			LoadAssemblies (301ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (486ms)
+			SetupTypeCache (508ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (2237ms)
+			SetupLoadedEditorAssemblies (2419ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (239ms)
-				ProcessInitializeOnLoadAttributes (1856ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (2044ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.054879 seconds.
+Validating Project structure ... 0.026426 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.047162 seconds.
+Upgrading shader files ...0.049280 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 
@@ -367,18 +367,18 @@ Assets queued for import after Refresh completed:
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
 Unloading 4186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 367.9 MB.
-System memory in use after: 367.1 MB.
+System memory in use before: 367.3 MB.
+System memory in use after: 366.3 MB.
 
-Unloading 499 unused Assets to reduce memory usage. Loaded Objects now: 4711.
-Total: 4.594875 ms (FindLiveObjects: 0.592250 ms CreateObjectMapping: 0.123500 ms MarkObjects: 3.168834 ms  DeleteObjects: 0.709291 ms)
+Unloading 517 unused Assets to reduce memory usage. Loaded Objects now: 4711.
+Total: 6.481625 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.121833 ms MarkObjects: 5.050500 ms  DeleteObjects: 0.854500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -392,368 +392,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/foodTruck.unity
-  artifactKey: Guid(aa352858dab3f4d79a413701f66a4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/foodTruck.unity using Guid(aa352858dab3f4d79a413701f66a4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f842fc22df6108c1bf0b45dcc13c2') in 0.033165 seconds 
-  Import took 0.041709 seconds .
+  path: Assets/Prefabs/Foodtruck/cherry-cheesecake/source/cheesecake.fbx
+  artifactKey: Guid(2a1c7d27923c9470c8e81160330b592a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/cherry-cheesecake/source/cheesecake.fbx using Guid(2a1c7d27923c9470c8e81160330b592a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff248bc485c5cac7ba034cd03727fa5') in 2.182895 seconds 
+  Import took 2.209578 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2248.943078 seconds.
-  path: Assets/Prefabs/Foodtruck
-  artifactKey: Guid(b0635d10ec4634b0697ea32f0ff78491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck using Guid(b0635d10ec4634b0697ea32f0ff78491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bde6fa1c17a7293aef7b505a061757') in 0.018283 seconds 
-  Import took 0.145746 seconds .
+  Time since last request: 0.004361 seconds.
+  path: Assets/Prefabs/Foodtruck/cherry-cheesecake
+  artifactKey: Guid(e264b4fbabd624197a483828cfc53990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/cherry-cheesecake using Guid(e264b4fbabd624197a483828cfc53990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad62ab11d9dbb77b32a11ccef2ef131') in 0.002188 seconds 
+  Import took 0.010239 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.492210 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken
-  artifactKey: Guid(6055c832f303a4f49b4279bb02f26580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken using Guid(6055c832f303a4f49b4279bb02f26580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a53c836439372876b9637b4fca5915') in 0.002877 seconds 
-  Import took 0.046018 seconds .
+  Time since last request: 0.000700 seconds.
+  path: Assets/Prefabs/Foodtruck/cherry-cheesecake/source
+  artifactKey: Guid(13df33b218e3a44e7b5ebf4db131a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/cherry-cheesecake/source using Guid(13df33b218e3a44e7b5ebf4db131a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77a482679f52d1c5ad095a356bda2e2') in 0.003168 seconds 
+  Import took 0.010390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.840441 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source
-  artifactKey: Guid(9761e6fd228fe4ab1a9e8ea2a5a2ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source using Guid(9761e6fd228fe4ab1a9e8ea2a5a2ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc55cef073cfd304c11959868a3661d') in 0.003430 seconds 
-  Import took 0.014805 seconds .
+  Time since last request: 218.075438 seconds.
+  path: Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa
+  artifactKey: Guid(09373f34d54a3464f832e1211ab69eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa using Guid(09373f34d54a3464f832e1211ab69eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219c37d6beb837fcc44ba11b5709dd90') in 0.004234 seconds 
+  Import took 0.031052 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036776 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.fbx
-  artifactKey: Guid(2404d5a4ed97346ab8475a3076a156c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.fbx using Guid(2404d5a4ed97346ab8475a3076a156c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab00c7f91739c9bcedb5bde251d98cf') in 2.113308 seconds 
-  Import took 2.152824 seconds .
+  Time since last request: 0.001634 seconds.
+  path: Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa
+  artifactKey: Guid(09373f34d54a3464f832e1211ab69eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa using Guid(09373f34d54a3464f832e1211ab69eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219c37d6beb837fcc44ba11b5709dd90') in 0.000824 seconds 
+  Import took 0.007860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.738728 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab
-  artifactKey: Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab using Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039e7320dcba6cd148d47d212f9f6244') in 0.434393 seconds 
-  Import took 0.467467 seconds .
+  Time since last request: 1.042068 seconds.
+  path: Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa/source
+  artifactKey: Guid(a6c592c55a84c4e49a0782d42358f029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa/source using Guid(a6c592c55a84c4e49a0782d42358f029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd72d401242f104923249ae20ad174a') in 0.000825 seconds 
+  Import took 0.008948 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.759800 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab
-  artifactKey: Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab using Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039e7320dcba6cd148d47d212f9f6244') in 0.015107 seconds 
-  Import took 0.028798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.459397 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab
-  artifactKey: Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab using Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa6eab6ec74da1fdfd2efa3c3cd04fa') in 0.046698 seconds 
-  Import took 0.085628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.859377 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab
-  artifactKey: Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/source/food truck.prefab using Guid(a45fca92ea5ce46b38165fa202cb6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5aa7c678fcb49083b4a5cd41b9a71f2') in 0.016748 seconds 
-  Import took 0.025862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 619.430027 seconds.
-  path: Assets/food/pizza-food-vendor-truck/source/COMBINED food vendor truck.fbx
-  artifactKey: Guid(4ed52f3638a294447b9c8fddc631c437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/source/COMBINED food vendor truck.fbx using Guid(4ed52f3638a294447b9c8fddc631c437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e574a084ad3dd06c722934f798b0a79') in 0.231153 seconds 
-  Import took 0.279624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000928 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Material_BaseCo.png
-  artifactKey: Guid(c34b55a414a4a411f8cad1dbab09122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Material_BaseCo.png using Guid(c34b55a414a4a411f8cad1dbab09122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980beacd3781167d7f10e03bdfa04731') in 0.888498 seconds 
-  Import took 0.897649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005935 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Material_Height.png
-  artifactKey: Guid(55e299b5aa28443d782e6e28eff457b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Material_Height.png using Guid(55e299b5aa28443d782e6e28eff457b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c388028901065f7f20b6a85ad3a25ba') in 0.013457 seconds 
-  Import took 0.024008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000881 seconds.
-  path: Assets/food/low-poly-street-food-cart/source/street-food-cart.fbx
-  artifactKey: Guid(56d096161d7524c3cbbea53e7966b6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/low-poly-street-food-cart/source/street-food-cart.fbx using Guid(56d096161d7524c3cbbea53e7966b6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ad460116a0c0838afec5dcdbf7254b') in 0.072606 seconds 
-  Import took 0.084364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Fruit/Food_Orange.prefab
-  artifactKey: Guid(09bd87055b19ae4469a98d1af1a6c792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Fruit/Food_Orange.prefab using Guid(09bd87055b19ae4469a98d1af1a6c792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365737827f1b6fabcf36bb89f0df028b') in 0.056061 seconds 
-  Import took 0.066551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/food/food-truck/textures/foodtruck_all_BaseColor.png
-  artifactKey: Guid(38cb004a1ddb14de98660056efaf4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-truck/textures/foodtruck_all_BaseColor.png using Guid(38cb004a1ddb14de98660056efaf4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eb4def755eed35fb4aab95257f5f87') in 0.012799 seconds 
-  Import took 0.021480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/food/panipuri-cart-indian-appetizers/textures/food_cart2.png
-  artifactKey: Guid(0cdecf16f11f943cbba76d341155a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/panipuri-cart-indian-appetizers/textures/food_cart2.png using Guid(0cdecf16f11f943cbba76d341155a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf651c39515e0709fa49eb716a81a2a') in 0.021916 seconds 
-  Import took 0.028879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_chalboard_BaseC.png
-  artifactKey: Guid(b33e0caa4d95c46b7adc1fcf9cb47e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_chalboard_BaseC.png using Guid(b33e0caa4d95c46b7adc1fcf9cb47e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84724a5d736570ca1baa5693c56398af') in 0.011155 seconds 
-  Import took 0.018098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/food/food-truck/textures/foodtruck_inside_BaseColor.png
-  artifactKey: Guid(e6daae7ded5884ad58da1304bca65446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-truck/textures/foodtruck_inside_BaseColor.png using Guid(e6daae7ded5884ad58da1304bca65446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c4eace7b0713af4fd8196f82879894') in 0.009074 seconds 
-  Import took 0.016814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_wood_BaseColor.png
-  artifactKey: Guid(213c0cd13d6024b6f82a82ed25d9d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_wood_BaseColor.png using Guid(213c0cd13d6024b6f82a82ed25d9d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857bafce1ac623156b9a379a6bc60903') in 0.039728 seconds 
-  Import took 0.050675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/food/panipuri-cart-indian-appetizers/source/food vendor cart.fbx
-  artifactKey: Guid(857d0e8b6ed094637b0cbbf2cffdaf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/panipuri-cart-indian-appetizers/source/food vendor cart.fbx using Guid(857d0e8b6ed094637b0cbbf2cffdaf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d04189d3ddec85a05550096b0aa9ca7') in 0.168155 seconds 
-  Import took 0.182828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/food/food-truck/textures/foodtruck_all_Emissive.png
-  artifactKey: Guid(1d8cb2d0230b84e3dad8c291137f06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-truck/textures/foodtruck_all_Emissive.png using Guid(1d8cb2d0230b84e3dad8c291137f06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8244b8c81bd5ffc4cb2dae7a876fd14') in 0.012004 seconds 
-  Import took 0.020591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/food/coffee-street-food-vendor-challenge/textures/Food_sel.jpg
-  artifactKey: Guid(6b289dd586b614c3ba0789c4af8e8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/coffee-street-food-vendor-challenge/textures/Food_sel.jpg using Guid(6b289dd586b614c3ba0789c4af8e8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da58173529f484b38c39b6dc3805b179') in 0.486667 seconds 
-  Import took 0.495082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003307 seconds.
-  path: Assets/food/subway-bar/source/RubberBlackCircleBump_N/SubwayBar_Release.fbx
-  artifactKey: Guid(fefbc2a5e49724c239430d414a3d0aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/subway-bar/source/RubberBlackCircleBump_N/SubwayBar_Release.fbx using Guid(fefbc2a5e49724c239430d414a3d0aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f4479e72399442042053b6d3ab19b1') in 1.068599 seconds 
-  Import took 1.079476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004259 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Truck_mat_Rough.png
-  artifactKey: Guid(69bd4ad2a8f55480aace84f65d07a473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Truck_mat_Rough.png using Guid(69bd4ad2a8f55480aace84f65d07a473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcc00f0af5fe8df505577b81a8333aa') in 0.013932 seconds 
-  Import took 0.023519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_metal_Metallic.png
-  artifactKey: Guid(20da269f7f0bb4d29857d6c09150874f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_metal_Metallic.png using Guid(20da269f7f0bb4d29857d6c09150874f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f4601c3fd1250ee76347db82014113') in 0.010822 seconds 
-  Import took 0.020048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_metal_Roughness.png
-  artifactKey: Guid(4a03a276006424d0cb50d6c33bb30b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_metal_Roughness.png using Guid(4a03a276006424d0cb50d6c33bb30b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fff3c28f87f2c6dfd06185b8be3fa3c') in 0.010060 seconds 
-  Import took 0.018951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/food/coffee-street-food-vendor-challenge/source/Food seller2.3ds
-  artifactKey: Guid(85561ab70b82849889d8a40f91304e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/coffee-street-food-vendor-challenge/source/Food seller2.3ds using Guid(85561ab70b82849889d8a40f91304e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dac2e4d040c9cbba88f29eddced39d8') in 0.789811 seconds 
-  Import took 0.842825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007506 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Material_Normal.png
-  artifactKey: Guid(f82d589a17f3749ab87fab106c42de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_Material_Normal.png using Guid(f82d589a17f3749ab87fab106c42de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4df26eb0ccd33a3624a50c37343fe1') in 0.025153 seconds 
-  Import took 0.057644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/food/coffee-street-food-vendor-challenge/textures/Food_s01.jpg
-  artifactKey: Guid(670e29d583fa542a597166a6fbf42212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/coffee-street-food-vendor-challenge/textures/Food_s01.jpg using Guid(670e29d583fa542a597166a6fbf42212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3278dd5e70579c4134a914e605a2f408') in 0.012836 seconds 
-  Import took 0.050347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_cheese_mat_Roug.png
-  artifactKey: Guid(803f23fa0aaaf4473b004f1c43f945d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/COMBINED_food_vendor_truck_cheese_mat_Roug.png using Guid(803f23fa0aaaf4473b004f1c43f945d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e2979088bf2199185a7c38dd624b82') in 0.035459 seconds 
-  Import took 0.066297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/food/low-poly-street-food-cart 1/source/street-food-cart.fbx
-  artifactKey: Guid(e3fa57734baa7493f9e9c14d1b79ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/low-poly-street-food-cart 1/source/street-food-cart.fbx using Guid(e3fa57734baa7493f9e9c14d1b79ed99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc987f9f2da64a8a7cc34f459bec6c3a') in 0.077015 seconds 
-  Import took 0.103288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 603.976222 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9818761d9ec83d94afcbc2b5b05c69') in 0.428228 seconds 
-  Import took 0.463807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002470 seconds.
-  path: Assets/TerrainData_d95db2f6-7bf2-4055-b70c-58d3bc66e5b5.asset
-  artifactKey: Guid(c4bef3e65217642589458f44fdd54014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_d95db2f6-7bf2-4055-b70c-58d3bc66e5b5.asset using Guid(c4bef3e65217642589458f44fdd54014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acec3201915c44ac1e80912d566a56c') in 0.014782 seconds 
-  Import took 0.024164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/TerrainData_6c0350f2-c4ac-47b1-b539-46d6d85422a8.asset
-  artifactKey: Guid(b472b854be9b54eff89c1048b3c57ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_6c0350f2-c4ac-47b1-b539-46d6d85422a8.asset using Guid(b472b854be9b54eff89c1048b3c57ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f41990fbd1faf9963f76c92558184c') in 0.012443 seconds 
-  Import took 0.020865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/TerrainData_53baef74-d9d1-486c-9c11-386abd70729c.asset
-  artifactKey: Guid(caefcd78bea2b47a59efe743ccf44be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_53baef74-d9d1-486c-9c11-386abd70729c.asset using Guid(caefcd78bea2b47a59efe743ccf44be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681c2fb862346477d418a4a5aada5c19') in 0.011606 seconds 
-  Import took 0.019922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 155.562092 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck
-  artifactKey: Guid(fbbf63d8cbbef4c72ba72a75966c0cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck using Guid(fbbf63d8cbbef4c72ba72a75966c0cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8538a69781732d37826206bc3d92d113') in 0.001882 seconds 
-  Import took 0.036494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009174 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck
-  artifactKey: Guid(fbbf63d8cbbef4c72ba72a75966c0cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck using Guid(fbbf63d8cbbef4c72ba72a75966c0cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8538a69781732d37826206bc3d92d113') in 0.000848 seconds 
-  Import took 0.008925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.357180 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/source
-  artifactKey: Guid(a583c5c971d77481ea3fb4f42454a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/source using Guid(a583c5c971d77481ea3fb4f42454a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf8201dec7a77cc71b491e58b21bb7') in 0.004385 seconds 
-  Import took 0.013366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.282139 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO
-  artifactKey: Guid(23c904ec9093b4f7d8c45f0bfaac3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO using Guid(23c904ec9093b4f7d8c45f0bfaac3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac000903705a06d5fc1c357a071efdf') in 0.001671 seconds 
-  Import took 0.010981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035506 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO.fbx
-  artifactKey: Guid(a2b3df90a1f7a4d05818035874e1dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO.fbx using Guid(a2b3df90a1f7a4d05818035874e1dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4eb648eb8e21775dad867d8d896e27') in 5.041437 seconds 
-  Import took 5.070383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.171317 seconds.
-  path: Assets/Prefabs/Foodtruck/FoodTruck.prefab
-  artifactKey: Guid(a6c86e04bfec74c06942257d4e442a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/FoodTruck.prefab using Guid(a6c86e04bfec74c06942257d4e442a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123a7b6d28c1c1df689953cacabfaeaf') in 0.706212 seconds 
-  Import took 0.784449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 385.251295 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck-fried-chicken/textures/truck.png
-  artifactKey: Guid(b7d59ac8c80f249d2b41fc42420cb79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck-fried-chicken/textures/truck.png using Guid(b7d59ac8c80f249d2b41fc42420cb79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed72abb5a2757da3144ec070462d687c') in 0.081536 seconds 
-  Import took 0.116082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000919 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/truck_with_graffiti_on_it.png
-  artifactKey: Guid(00c0b04ecde084294be3ab9218aa55ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/truck_with_graffiti_on_it.png using Guid(00c0b04ecde084294be3ab9218aa55ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7113abb8a812398ac1641220538109e8') in 0.010511 seconds 
-  Import took 0.019868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 224.896920 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck
-  artifactKey: Guid(273ede645b34c4db4b3c2226144a293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck using Guid(273ede645b34c4db4b3c2226144a293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f1b21812ab9f25ab9cdd8810d776f3') in 0.003367 seconds 
-  Import took 0.048668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.544043 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck/source
-  artifactKey: Guid(a12df90b50eb34d8489e291579a01e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck/source using Guid(a12df90b50eb34d8489e291579a01e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c034504bef309c0a36e7dc4c30ca1a29') in 0.001755 seconds 
-  Import took 0.011721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041068 seconds.
-  path: Assets/Prefabs/Foodtruck/food-truck/source/food truck.fbx
-  artifactKey: Guid(56c421993ef574754aad129b7c6d5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/food-truck/source/food truck.fbx using Guid(56c421993ef574754aad129b7c6d5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed35fb52a9f94a16d672f0b13fb389a2') in 0.087952 seconds 
-  Import took 0.096564 seconds .
+  Time since last request: 0.036326 seconds.
+  path: Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa/source/threecookies.fbx
+  artifactKey: Guid(0941406fb99474e2cbd6bee2f9df3b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Foodtruck/milk-and-cookies-for-santa/source/threecookies.fbx using Guid(0941406fb99474e2cbd6bee2f9df3b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f59a53695526089771a58a9df972227') in 1.024168 seconds 
+  Import took 1.032904 seconds .
 
