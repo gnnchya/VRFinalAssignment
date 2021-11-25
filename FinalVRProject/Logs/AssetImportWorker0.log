@@ -22,68 +22,69 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55589
+49224
 Successfully changed project path to: /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 25.81 ms.
+Refreshing native plugins compatible for Editor in 319.55 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 11.89 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-24 23:13:07.239 Unity[6994:7141884] (null) preferred device: Apple M1 (high power)
-2021-11-24 23:13:07.239 Unity[6994:7141884] Metal devices available: 1
-2021-11-24 23:13:07.239 Unity[6994:7141884] 0: Apple M1 (high power)
-2021-11-24 23:13:07.239 Unity[6994:7141884] Using device Apple M1 (high power)
+2021-11-25 14:05:51.411 Unity[28362:7509363] (null) preferred device: Apple M1 (high power)
+2021-11-25 14:05:51.411 Unity[28362:7509363] Metal devices available: 1
+2021-11-25 14:05:51.411 Unity[28362:7509363] 0: Apple M1 (high power)
+2021-11-25 14:05:51.412 Unity[28362:7509363] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56994
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56362
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001566 seconds.
+Registered in 0.001288 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 97.75 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 112.60 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.165 seconds
+- Completed reload, in  2.634 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2166ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (2634ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1009ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (201ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (609ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (689ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (115ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006236 seconds.
+Registered in 0.007213 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 90.67 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 116.66 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.01 ms.
 Mono: successfully reloaded assembly
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -319,37 +320,37 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload () (at /Users/bokken/buil
 
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
-- Completed reload, in  3.933 seconds
+- Completed reload, in  4.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3939ms)
-		BeginReloadAssembly (262ms)
+	ReloadAssembly (4146ms)
+		BeginReloadAssembly (292ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (3581ms)
-			LoadAssemblies (219ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (3754ms)
+			LoadAssemblies (248ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (464ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (2111ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (2205ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (1778ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (1818ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (72ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.035980 seconds.
+Validating Project structure ... 0.208748 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.052159 seconds.
+Upgrading shader files ...0.104100 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
 
@@ -366,19 +367,21 @@ Assets queued for import after Refresh completed:
 	Assets/XR/Settings/OpenXR Package Settings.asset
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
-Unloading 4191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 368.2 MB.
-System memory in use after: 367.1 MB.
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+Unloading 4870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 415.2 MB.
+System memory in use after: 413.9 MB.
 
-Unloading 584 unused Assets to reduce memory usage. Loaded Objects now: 4716.
-Total: 11.367500 ms (FindLiveObjects: 0.869542 ms CreateObjectMapping: 0.130209 ms MarkObjects: 8.931083 ms  DeleteObjects: 1.432250 ms)
+Unloading 921 unused Assets to reduce memory usage. Loaded Objects now: 5374.
+Total: 21.922375 ms (FindLiveObjects: 3.949000 ms CreateObjectMapping: 0.185541 ms MarkObjects: 11.790625 ms  DeleteObjects: 5.993333 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -392,329 +395,363 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Blue.mat
-  artifactKey: Guid(6a2952685290f44c1b6a93343d581025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Blue.mat using Guid(6a2952685290f44c1b6a93343d581025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba28421636d1e5cb418f66352af3fbc1') in 1.097068 seconds 
-  Import took 1.114544 seconds .
+  path: Assets/Prefabs/New Folder
+  artifactKey: Guid(5e0678ce6c4514a46b56025317659add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Folder using Guid(5e0678ce6c4514a46b56025317659add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa97478715889fb64787b038226ad7cf') in 0.065855 seconds 
+  Import took 0.120708 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.500744 seconds.
-  path: Assets/Scenes/bird.unity
-  artifactKey: Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/bird.unity using Guid(1e840d93b1c92473f83d910b16b2f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407016ae819290ad1fadbbc1734306bc') in 0.005335 seconds 
-  Import took 0.024529 seconds .
+  Time since last request: 9.900422 seconds.
+  path: Assets/Prefabs/anchors
+  artifactKey: Guid(5e0678ce6c4514a46b56025317659add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/anchors using Guid(5e0678ce6c4514a46b56025317659add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6e68c47990dba753ff8d9ab81710c7') in 0.002285 seconds 
+  Import took 0.057039 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.023818 seconds.
-  path: Assets/Scenes/main.unity
-  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a758ffe66ae032447b8acb8709533298') in 0.013840 seconds 
-  Import took 0.069821 seconds .
+  Time since last request: 22.340332 seconds.
+  path: Assets/Prefabs/anchors/TicketBooth(pickup).prefab
+  artifactKey: Guid(48054f9ffca1f4b62a050bc4eb5674eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/anchors/TicketBooth(pickup).prefab using Guid(48054f9ffca1f4b62a050bc4eb5674eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01b56f428864ea1a402cbefdafc0b0b') in 1.106830 seconds 
+  Import took 1.151096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1686.327258 seconds.
-  path: Assets/Materials/DuckSign.mat
-  artifactKey: Guid(08982a05916a3497fa87d8142ea55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DuckSign.mat using Guid(08982a05916a3497fa87d8142ea55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81b15473e5797c3431cd4ef29ed08a9') in 0.228192 seconds 
-  Import took 0.262754 seconds .
+  Time since last request: 18.918442 seconds.
+  path: Assets/Prefabs/anchors/yellow.prefab
+  artifactKey: Guid(48054f9ffca1f4b62a050bc4eb5674eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/anchors/yellow.prefab using Guid(48054f9ffca1f4b62a050bc4eb5674eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32a3ba5c68ddf825da01c2c8330a202') in 0.030767 seconds 
+  Import took 0.070574 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.779990 seconds.
-  path: Assets/Materials/info-egyptian-vulture-board-zoo-information-wooden-city-kyiv-ukraine-187767803.jpeg
-  artifactKey: Guid(504cb31cd206b4e1c8baa208d50728d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/info-egyptian-vulture-board-zoo-information-wooden-city-kyiv-ukraine-187767803.jpeg using Guid(504cb31cd206b4e1c8baa208d50728d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b566106e9aaac6b147f699a0134693') in 0.777018 seconds 
-  Import took 0.822050 seconds .
+  Time since last request: 0.001107 seconds.
+  path: Assets/Prefabs/anchors/yellow.prefab
+  artifactKey: Guid(48054f9ffca1f4b62a050bc4eb5674eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/anchors/yellow.prefab using Guid(48054f9ffca1f4b62a050bc4eb5674eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32a3ba5c68ddf825da01c2c8330a202') in 0.005636 seconds 
+  Import took 0.014801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.480949 seconds.
-  path: Assets/Materials/1-ans-anat-nene-branta-sandvicensis-houston-zoo-5-6-15-by-lee-525.jpeg
-  artifactKey: Guid(d9e525c8991cc454597be418c38f81ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/1-ans-anat-nene-branta-sandvicensis-houston-zoo-5-6-15-by-lee-525.jpeg using Guid(d9e525c8991cc454597be418c38f81ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a51db4c95424b3997402f69f311432e') in 0.067435 seconds 
-  Import took 0.109572 seconds .
+  Time since last request: 7.357561 seconds.
+  path: Assets/Prefabs/anchors/TicketPass(pickup) (7).prefab
+  artifactKey: Guid(0965ce18fd7ab4efc8c485e0f3de272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/anchors/TicketPass(pickup) (7).prefab using Guid(0965ce18fd7ab4efc8c485e0f3de272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53196ea346de4927318ba83e25dfc9db') in 0.012032 seconds 
+  Import took 0.042801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.978249 seconds.
-  path: Assets/Materials/DuckSign.mat
-  artifactKey: Guid(08982a05916a3497fa87d8142ea55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/DuckSign.mat using Guid(08982a05916a3497fa87d8142ea55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f59202452925b60357c712acc7389b8') in 0.083231 seconds 
-  Import took 0.126757 seconds .
+  Time since last request: 9.468541 seconds.
+  path: Assets/Prefabs/anchors/Blue.prefab
+  artifactKey: Guid(0965ce18fd7ab4efc8c485e0f3de272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/anchors/Blue.prefab using Guid(0965ce18fd7ab4efc8c485e0f3de272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9c463e068a7de566f92de989c7556f') in 0.024150 seconds 
+  Import took 0.074397 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4100ms)
+		BeginReloadAssembly (458ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (226ms)
+		EndReloadAssembly (3544ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2007ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (308ms)
+				ProcessInitializeOnLoadAttributes (1666ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 4678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 400.5 MB.
+System memory in use after: 400.5 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 5482.
+Total: 6.313708 ms (FindLiveObjects: 0.418084 ms CreateObjectMapping: 0.170416 ms MarkObjects: 5.154042 ms  DeleteObjects: 0.570375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4090ms)
+		BeginReloadAssembly (395ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (61ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (3594ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (2067ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (343ms)
+				ProcessInitializeOnLoadAttributes (1691ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 4678 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 401.6 MB.
+System memory in use after: 401.6 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5496.
+Total: 9.114459 ms (FindLiveObjects: 0.577167 ms CreateObjectMapping: 0.270333 ms MarkObjects: 7.169416 ms  DeleteObjects: 1.096750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3042.552347 seconds.
+  path: Assets/Materials/Leaves.mat
+  artifactKey: Guid(2729f953a7b374baabcdb3d5dd452a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves.mat using Guid(2729f953a7b374baabcdb3d5dd452a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa633ca263cc4848891c6559a1a2e67b') in 1.236238 seconds 
+  Import took 1.308767 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 117.753603 seconds.
-  path: Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Circular.prefab
-  artifactKey: Guid(50f8d835961353c4a8e0c4b77d7f8876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Circular.prefab using Guid(50f8d835961353c4a8e0c4b77d7f8876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0679209e302e1222f3645af0d3f8f2fb') in 0.852364 seconds 
-  Import took 0.885075 seconds .
+  Time since last request: 114.289253 seconds.
+  path: Assets/Materials/Birch_Leaf.tif
+  artifactKey: Guid(36f305661dc394c8bb72ee6862c023bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch_Leaf.tif using Guid(36f305661dc394c8bb72ee6862c023bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b977b32c0cbe1f104bc3dd2c26f19f58') in 0.666971 seconds 
+  Import took 0.723806 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002836 seconds.
-  path: Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Square.prefab
-  artifactKey: Guid(493691fe396bc5c40900e8a234c5c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/VR/Reticles/VR_Reticle_Square.prefab using Guid(493691fe396bc5c40900e8a234c5c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c5f631217a54219ad53a4dec268221') in 0.021188 seconds 
-  Import took 0.032048 seconds .
+  Time since last request: 142.157551 seconds.
+  path: Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab
+  artifactKey: Guid(2314ce3a3eecf4816bad3c9eca4de2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab using Guid(2314ce3a3eecf4816bad3c9eca4de2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adf358bbe3305b7549050dc3f66ccf7') in 0.209763 seconds 
+  Import took 0.248108 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2159.044061 seconds.
-  path: Assets/_Course Library/Materials/Physics Materials/PhysicsMaterial_Bounce_High.physicMaterial
-  artifactKey: Guid(acb78fcb0450e4fb8b9fb4a2efa13fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Physics Materials/PhysicsMaterial_Bounce_High.physicMaterial using Guid(acb78fcb0450e4fb8b9fb4a2efa13fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dc08f75e92017c2d00b9f1e4cc1128') in 0.645791 seconds 
-  Import took 0.679877 seconds .
+  Time since last request: 0.005519 seconds.
+  path: Assets/food/outdoor-table-chairs/source/16T3_OutdoorTableChairs_v5.fbx
+  artifactKey: Guid(03657034cec734feea24fbcbc06bb906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/outdoor-table-chairs/source/16T3_OutdoorTableChairs_v5.fbx using Guid(03657034cec734feea24fbcbc06bb906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a726930a66fa18fcb92a76e8a196a618') in 0.916074 seconds 
+  Import took 0.931212 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001782 seconds.
-  path: Assets/_Course Library/Materials/Physics Materials/PhysicsMaterial_Bounce_Low.physicMaterial
-  artifactKey: Guid(9dfce9feba2bb554faaad677ef18812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Physics Materials/PhysicsMaterial_Bounce_Low.physicMaterial using Guid(9dfce9feba2bb554faaad677ef18812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec56004d6046e41f82b53f708e91d26') in 0.003687 seconds 
-  Import took 0.013536 seconds .
+  Time since last request: 0.003326 seconds.
+  path: Assets/Savannah/trees/old-tree/textures/old_leaf_C.jpeg
+  artifactKey: Guid(e0d736188e8ac42e9acbafa6d4571c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/trees/old-tree/textures/old_leaf_C.jpeg using Guid(e0d736188e8ac42e9acbafa6d4571c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df79b16eae0966e6254a3210119b4e89') in 0.512085 seconds 
+  Import took 0.524731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Challenges/03_Training/Materials/Slippery.physicMaterial
-  artifactKey: Guid(69e9bd7ea9e6e45cfb5e74783123202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges/03_Training/Materials/Slippery.physicMaterial using Guid(69e9bd7ea9e6e45cfb5e74783123202e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e7b900c93f70967ddbe8dfca8f0b3e') in 0.004293 seconds 
-  Import took 0.013045 seconds .
+  Time since last request: 0.004071 seconds.
+  path: Assets/Savannah/trees/platano-tree/textures/leafs-platano_M.jpg
+  artifactKey: Guid(346cb0b11aca54ffc8cc3718788ae40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/trees/platano-tree/textures/leafs-platano_M.jpg using Guid(346cb0b11aca54ffc8cc3718788ae40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0043ad720951d7e93746d103daf3d4') in 0.517784 seconds 
+  Import took 0.527379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/_Course Library/Materials/Physics Materials/PhysicsMaterial_Bounce_Medium.physicMaterial
-  artifactKey: Guid(e654b37fdb1572b448b120296457ac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Materials/Physics Materials/PhysicsMaterial_Bounce_Medium.physicMaterial using Guid(e654b37fdb1572b448b120296457ac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c1fa04fca8fca8b370d7c0c521c484') in 0.004057 seconds 
-  Import took 0.012503 seconds .
+  Time since last request: 0.003153 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat
+  artifactKey: Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat using Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40349f2aff1309d38d6c1f0c33c6a072') in 0.031524 seconds 
+  Import took 0.038765 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2829.884289 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Concrete_Aggregate_Smoke.jpg
-  artifactKey: Guid(497aac87b5caa4d6886a150682f7c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Concrete_Aggregate_Smoke.jpg using Guid(497aac87b5caa4d6886a150682f7c9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932a70400baab06b9c5e4bcdfb88f18f') in 0.862661 seconds 
-  Import took 0.898579 seconds .
+  Time since last request: 0.000308 seconds.
+  path: Assets/Savannah/trees/old-tree/textures/old_leaf_M.jpeg
+  artifactKey: Guid(edea045f1e60c40b7934f890c4232eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/trees/old-tree/textures/old_leaf_M.jpeg using Guid(edea045f1e60c40b7934f890c4232eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503cc7fc69688c5c10765097403f1247') in 0.010068 seconds 
+  Import took 0.018475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004610 seconds.
-  path: Assets/food/terraza-food-truck/textures/Concrete_Aggregate_Smoke.jpeg
-  artifactKey: Guid(ef138be9474394201853065b4311410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/terraza-food-truck/textures/Concrete_Aggregate_Smoke.jpeg using Guid(ef138be9474394201853065b4311410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f599949c7b4177494fa09b6d3a6d6b') in 0.013289 seconds 
-  Import took 0.022705 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/Savannah/trees/old-tree/textures/old_leaf_N.jpeg
+  artifactKey: Guid(28dd3c9e723674e96b4fc3dbc31acb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/trees/old-tree/textures/old_leaf_N.jpeg using Guid(28dd3c9e723674e96b4fc3dbc31acb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237f0ff546cbc85da6d1a796dcbc570c') in 0.008147 seconds 
+  Import took 0.015645 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/food/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Polished_Concrete_New.jpg
-  artifactKey: Guid(5e30dda166a1244729602bae940835d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Polished_Concrete_New.jpg using Guid(5e30dda166a1244729602bae940835d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d88a79cc788496a12cfeae4890bb8') in 0.020980 seconds 
-  Import took 0.027823 seconds .
+  Time since last request: 0.000293 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/SelectionCylinder.fbx
+  artifactKey: Guid(f167bd156a4b5ff4faf061ab4ce336cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/SelectionCylinder.fbx using Guid(f167bd156a4b5ff4faf061ab4ce336cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0c5cc227ea230ebcd0efac0898c8ba') in 0.074904 seconds 
+  Import took 0.081882 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Polished_Concrete_New.jpg
-  artifactKey: Guid(6e31321d9c9e14f20aab964a8448cdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Polished_Concrete_New.jpg using Guid(6e31321d9c9e14f20aab964a8448cdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbec7bed78d51144c5275375a277d91') in 0.017332 seconds 
-  Import took 0.025237 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/Savannah/trees/platano-tree/textures/leafs-platano_N.jpg
+  artifactKey: Guid(eccf575a773ca4560a0fceca1f30ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/trees/platano-tree/textures/leafs-platano_N.jpg using Guid(eccf575a773ca4560a0fceca1f30ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7797f62a1ca1889c37b4395dcbcddf0d') in 0.016078 seconds 
+  Import took 0.024789 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002034 seconds.
-  path: Assets/_Course Library/Audio/FX/SFX_Impact_Concrete.ogg
-  artifactKey: Guid(d727703712b36426db75d0e99085a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Audio/FX/SFX_Impact_Concrete.ogg using Guid(d727703712b36426db75d0e99085a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3fc315316b4c964009b118d1f8c583') in 0.447328 seconds 
-  Import took 0.460090 seconds .
+  Time since last request: 0.000929 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 02/Grass & dead leafs pattern 02.mat
+  artifactKey: Guid(020b997e4fa23c74297e208cd649319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 02/Grass & dead leafs pattern 02.mat using Guid(020b997e4fa23c74297e208cd649319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a791268ae311b9c56c436dad7124c89') in 0.017051 seconds 
+  Import took 0.025023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004108 seconds.
-  path: Assets/food/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Concrete_Aggregate_Smoke.jpg
-  artifactKey: Guid(013bf18bbd075459ca5d8742cdd6d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO/Concrete_Aggregate_Smoke.jpg using Guid(013bf18bbd075459ca5d8742cdd6d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d5c9c5af14082db9ff083a935e1b86') in 0.014365 seconds 
-  Import took 0.025138 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX
+  artifactKey: Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX using Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6c6d0956e20ed8793002b5580970ff') in 1.607817 seconds 
+  Import took 1.621383 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000615 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/textures/Concrete_Aggregate_Smoke.jpeg
-  artifactKey: Guid(60733b56c39794bc78863d58957450ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/textures/Concrete_Aggregate_Smoke.jpeg using Guid(60733b56c39794bc78863d58957450ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a73f104fb823f5c9c29467feec963ce') in 0.016921 seconds 
-  Import took 0.024161 seconds .
+  Time since last request: 0.009859 seconds.
+  path: Assets/Savannah/trees/platano-tree/textures/leafs-platano_C.jpg
+  artifactKey: Guid(33c55a2e7fb10498aaf5c89bddf2613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/trees/platano-tree/textures/leafs-platano_C.jpg using Guid(33c55a2e7fb10498aaf5c89bddf2613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba05cf4bd330eca714fe614e59da0e37') in 0.018138 seconds 
+  Import took 0.027265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002795 seconds.
-  path: Assets/Prefabs/Foodtruck/terraza-food-truck/textures/Polished_Concrete_New.jpeg
-  artifactKey: Guid(e1fe143e63a7d466f90e583dbf1aadc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Foodtruck/terraza-food-truck/textures/Polished_Concrete_New.jpeg using Guid(e1fe143e63a7d466f90e583dbf1aadc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd95462c72d4988fc374970d7cb02f2') in 0.017569 seconds 
-  Import took 0.025711 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/food/food-truck/source/all.fbx
+  artifactKey: Guid(56c36cd91e7144ae0b9536103f769ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/food-truck/source/all.fbx using Guid(56c36cd91e7144ae0b9536103f769ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f759fa83bb42828fc37729edd4dee276') in 0.455761 seconds 
+  Import took 0.464616 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/food/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO.fbx
-  artifactKey: Guid(58a6194c99f19490d87ec1f80324663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/terraza-food-truck/source/2020 03 19 MODELO ESTUDIO/2020 03 19 MODELO ESTUDIO.fbx using Guid(58a6194c99f19490d87ec1f80324663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a1a7d000fd73fc031084fbd3956d4d') in 6.142120 seconds 
-  Import took 6.179235 seconds .
+  Time since last request: 0.002085 seconds.
+  path: Assets/Tigers/stylized-tree/textures/leaf01.png
+  artifactKey: Guid(f94d416b0e6ad4386806cb8e48714684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tigers/stylized-tree/textures/leaf01.png using Guid(f94d416b0e6ad4386806cb8e48714684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a703ca12f6810b6cdf2a1d6103f3efa5') in 0.468799 seconds 
+  Import took 0.478111 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.029542 seconds.
-  path: Assets/food/terraza-food-truck/textures/Polished_Concrete_New.jpeg
-  artifactKey: Guid(472bd66d170214ea09c51fca466adbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/terraza-food-truck/textures/Polished_Concrete_New.jpeg using Guid(472bd66d170214ea09c51fca466adbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec660bf213877a1008fef2637c876a6e') in 0.029509 seconds 
-  Import took 0.042431 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4075ms)
+		BeginReloadAssembly (387ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (56ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (3581ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (2088ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (1728ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Unloading 4705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 453.4 MB.
+System memory in use after: 451.3 MB.
 
+Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 5593.
+Total: 5.667833 ms (FindLiveObjects: 0.419875 ms CreateObjectMapping: 0.218125 ms MarkObjects: 3.923875 ms  DeleteObjects: 1.105125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 165.806883 seconds.
-  path: Assets/food/white food truck/export to sketchfab.fbx
-  artifactKey: Guid(e86c8d54d3e2b43588f14dfc6d9338f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/white food truck/export to sketchfab.fbx using Guid(e86c8d54d3e2b43588f14dfc6d9338f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6232bc3f300e10fcc777ce6896c3a832') in 3.121804 seconds 
-  Import took 3.151758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017018 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_chair_Metallic.png
-  artifactKey: Guid(c6c54788d1d8f49b9a03ec14426cd666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_chair_Metallic.png using Guid(c6c54788d1d8f49b9a03ec14426cd666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1395519a268388132ada56e2f54d3eb4') in 0.555143 seconds 
-  Import took 0.600304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004414 seconds.
-  path: Assets/food/pizza-food-vendor-truck/textures/brick_texture.png
-  artifactKey: Guid(b08e2630f4b6a44d590206baea94f448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/pizza-food-vendor-truck/textures/brick_texture.png using Guid(b08e2630f4b6a44d590206baea94f448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f94eb58ed07c8dc226a4bb7c96e0dd2') in 0.013782 seconds 
-  Import took 0.023108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_Normal.png
-  artifactKey: Guid(12b9a8ff6005b403e97e1324bb18bf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_Normal.png using Guid(12b9a8ff6005b403e97e1324bb18bf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1503bbe3b5397a3406250d9adcbbbc6a') in 0.011640 seconds 
-  Import took 0.017945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_Roughness.png
-  artifactKey: Guid(e7e5fc54743e3498ebf38da49b656042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_Roughness.png using Guid(e7e5fc54743e3498ebf38da49b656042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e2a5778e7088680969e9868eb78107') in 0.013579 seconds 
-  Import took 0.020237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_BaseColor.png
-  artifactKey: Guid(f773e1b9bf3c345d999a2764fe08f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_BaseColor.png using Guid(f773e1b9bf3c345d999a2764fe08f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4be70c0965f26a970a80e4ebe84f05') in 0.012596 seconds 
-  Import took 0.020081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_chair_Normal.png
-  artifactKey: Guid(56a213eb38309439686c7a6720a3db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_chair_Normal.png using Guid(56a213eb38309439686c7a6720a3db97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262ae1345ec9ef0ae901bad5f46527e2') in 0.012971 seconds 
-  Import took 0.019359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_chair_Roughness.png
-  artifactKey: Guid(c995468233fb748c6b5415de01472931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_chair_Roughness.png using Guid(c995468233fb748c6b5415de01472931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb88b98abc2786f0e46d0ee5d5604de') in 0.010657 seconds 
-  Import took 0.016391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_chair_BaseColor.png
-  artifactKey: Guid(6a936ff548deb4618a0c8f235cbd2b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_chair_BaseColor.png using Guid(6a936ff548deb4618a0c8f235cbd2b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de6386b2e55bde41b74c8d0bfcaa6b5') in 0.012201 seconds 
-  Import took 0.018756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_Metallic.png
-  artifactKey: Guid(8f63210aac18340e7a680562726102d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/common-table-and-chair/textures/common_forniture_tableWooden_Metallic.png using Guid(8f63210aac18340e7a680562726102d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536b8782a1fc6572f550f3f5bdd3c13') in 0.012370 seconds 
-  Import took 0.018486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/XR/Settings/OpenXR Package Settings.asset
-  artifactKey: Guid(8b23f5f2df62e4e81961b783188397d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(8b23f5f2df62e4e81961b783188397d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
- #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
- #7 invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6::operator()() const
- #8 _dispatch_client_callout
- #9 _dispatch_async_and_wait_invoke
- #10 _dispatch_client_callout
- #11 _dispatch_main_queue_callback_4CF
- #12 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #13 __CFRunLoopRun
- #14 CFRunLoopRunSpecific
- #15 RunCurrentEventLoopInMode
- #16 ReceiveNextEventCommon
- #17 _BlockUntilNextEventMatchingListInModeWithFilter
- #18 _DPSNextEvent
- #19 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #20 -[NSApplication run]
- #21 NSApplicationMain
- #22 EditorMain(int, char const**)
- #23 main
- #24 start
-
-Requesting import of Guid(8b23f5f2df62e4e81961b783188397d3) Importer(-1,00000000000000000000000000000000), Assets/XR/Settings/OpenXR Package Settings.asset from editor
-Resuming Guid(8b23f5f2df62e4e81961b783188397d3) Importer(-1,00000000000000000000000000000000) -> 3e9e81fe50e0d606d543269c969a0301 
-Assertion failed on expression: 'state.state == kUpToDate'
-
-Assertion failed on expression: 'state.artifactID == result'
-
-Diagnostics callstack to track who triggered the sub-import:
- #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
- #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
- #8 invocation function for block in AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_6::operator()() const
- #9 _dispatch_client_callout
- #10 _dispatch_async_and_wait_invoke
- #11 _dispatch_client_callout
- #12 _dispatch_main_queue_callback_4CF
- #13 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
- #14 __CFRunLoopRun
- #15 CFRunLoopRunSpecific
- #16 RunCurrentEventLoopInMode
- #17 ReceiveNextEventCommon
- #18 _BlockUntilNextEventMatchingListInModeWithFilter
- #19 _DPSNextEvent
- #20 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #21 -[NSApplication run]
- #22 NSApplicationMain
- #23 EditorMain(int, char const**)
- #24 main
- #25 start
-
-Requesting import of Guid(8b23f5f2df62e4e81961b783188397d3) Importer(-1,00000000000000000000000000000000), Assets/XR/Settings/OpenXR Package Settings.asset from editor
-Resuming Guid(8b23f5f2df62e4e81961b783188397d3) Importer(-1,00000000000000000000000000000000) -> 3e9e81fe50e0d606d543269c969a0301 
-Assertion failed on expression: 'state.state == kUpToDate'
-
-Assertion failed on expression: 'state.artifactID == result'
-
- -> (artifact id: '3d8e3c1d44f5fc3675f7e2cc92dbf67d') in 0.203817 seconds 
-  Import took 0.209462 seconds .
+  Time since last request: 246.092087 seconds.
+  path: Assets/Materials/Leaves.mat
+  artifactKey: Guid(2729f953a7b374baabcdb3d5dd452a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves.mat using Guid(2729f953a7b374baabcdb3d5dd452a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b2f65451f16693e0e6d79102f89a60') in 0.800517 seconds 
+  Import took 0.846383 seconds .
 
