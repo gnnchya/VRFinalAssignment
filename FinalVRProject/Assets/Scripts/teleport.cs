@@ -6,7 +6,7 @@ public class teleport : MonoBehaviour
 {
     public void Teleport_start()
     {
-        Rig.transform.position = new Vector3(-39.40195f, 2.998791f, -52.07503f);
+        Rig.transform.position = new Vector3(-4f, 5f, -1f);
     }
 
     public GameObject Rig;
