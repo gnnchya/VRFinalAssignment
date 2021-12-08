@@ -22,101 +22,101 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52493
+61435
 Successfully changed project path to: /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 248.13 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 18.45 ms.
+Refreshing native plugins compatible for Editor in 177.69 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 11.25 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-12-08 00:49:42.084 Unity[67110:13296734] (null) preferred device: Apple M1 (high power)
-2021-12-08 00:49:42.084 Unity[67110:13296734] Metal devices available: 1
-2021-12-08 00:49:42.084 Unity[67110:13296734] 0: Apple M1 (high power)
-2021-12-08 00:49:42.084 Unity[67110:13296734] Using device Apple M1 (high power)
+2021-12-08 23:59:31.544 Unity[92087:13703627] (null) preferred device: Apple M1 (high power)
+2021-12-08 23:59:31.544 Unity[92087:13703627] Metal devices available: 1
+2021-12-08 23:59:31.544 Unity[92087:13703627] 0: Apple M1 (high power)
+2021-12-08 23:59:31.544 Unity[92087:13703627] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56110
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56087
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001211 seconds.
+Registered in 0.001444 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 108.97 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
+Refreshing native plugins compatible for Editor in 131.55 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.499 seconds
+- Completed reload, in  2.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2500ms)
+	ReloadAssembly (2648ms)
 		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (617ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (687ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007728 seconds.
+Registered in 0.008217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 121.88 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.07 ms.
+Refreshing native plugins compatible for Editor in 122.39 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.921 seconds
+- Completed reload, in  4.061 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3924ms)
-		BeginReloadAssembly (289ms)
+	ReloadAssembly (4065ms)
+		BeginReloadAssembly (306ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
+			DisableScriptedObjects (35ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (3514ms)
-			LoadAssemblies (235ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (3659ms)
+			LoadAssemblies (247ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (2240ms)
+			SetupTypeCache (500ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (2357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (228ms)
-				ProcessInitializeOnLoadAttributes (1863ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (1970ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.033382 seconds.
+Validating Project structure ... 0.049088 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.091092 seconds.
+Upgrading shader files ...0.087069 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -127,19 +127,19 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.64 ms.
+Refreshing native plugins compatible for Editor in 2.64 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
 Unloading 5020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 430.4 MB.
-System memory in use after: 428.4 MB.
+System memory in use before: 431.9 MB.
+System memory in use after: 429.4 MB.
 
 Unloading 594 unused Assets to reduce memory usage. Loaded Objects now: 5514.
-Total: 28.083750 ms (FindLiveObjects: 10.782667 ms CreateObjectMapping: 0.183500 ms MarkObjects: 15.171417 ms  DeleteObjects: 1.944666 ms)
+Total: 13.042292 ms (FindLiveObjects: 4.100792 ms CreateObjectMapping: 0.242375 ms MarkObjects: 6.787708 ms  DeleteObjects: 1.909792 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,32 +153,298 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Oculus/Spatializer/scenes/sounds/speech.wav
-  artifactKey: Guid(2cfa96c21e4f54c20824bd26cd46c10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Spatializer/scenes/sounds/speech.wav using Guid(2cfa96c21e4f54c20824bd26cd46c10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b60a0644c912582b083c97dc6810b99') in 1.180540 seconds 
-  Import took 1.206625 seconds .
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab
+  artifactKey: Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Light.prefab using Guid(9d9f0464e931ebd48bf01c0ef3c09ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71458d465b3637346a35b815c072074c') in 1.689342 seconds 
+  Import took 1.711210 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003988 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Audio/Train_Crossing.wav
-  artifactKey: Guid(c60b8ac4916103d41abbb35a9287ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Audio/Train_Crossing.wav using Guid(c60b8ac4916103d41abbb35a9287ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d182d7875a58f8af2658de888ab23d7') in 0.019360 seconds 
-  Import took 0.028906 seconds .
+  Time since last request: 0.003081 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_B.prefab
+  artifactKey: Guid(8085ccd0a01eb441da3fd9ab66229f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_B.prefab using Guid(8085ccd0a01eb441da3fd9ab66229f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6041a3fa65be6476bbce34af5a728e1f') in 0.048950 seconds 
+  Import took 0.062893 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001640 seconds.
-  path: Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg
-  artifactKey: Guid(33a0d552717ab4c2e87a77c856d9aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg using Guid(33a0d552717ab4c2e87a77c856d9aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052de78fc52b405e40fec5a6a704f59e') in 0.282887 seconds 
-  Import took 0.294079 seconds .
+  Time since last request: 0.001112 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab
+  artifactKey: Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Brown.prefab using Guid(fb9ce3f53babdeb4990afa0d85fd4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512757e6b1cb53823d8f045ff7d2884a') in 0.044824 seconds 
+  Import took 0.080762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 264.486883 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da885e1b2704b6422ea4aa865648f09a') in 0.530906 seconds 
-  Import took 0.578451 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Black.prefab
+  artifactKey: Guid(7d586b4a941812f4c96edf51d20fdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Black.prefab using Guid(7d586b4a941812f4c96edf51d20fdc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3043089a30f0d4e7088de5065ec0d5e7') in 0.032956 seconds 
+  Import took 0.045799 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Brown.prefab
+  artifactKey: Guid(c8e40e0db574f2245814fd7983a240f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Brown.prefab using Guid(c8e40e0db574f2245814fd7983a240f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e88af11bbafa50ad37f596a93d10fca') in 0.018326 seconds 
+  Import took 0.026997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Purple.prefab
+  artifactKey: Guid(e5b6e40db88c14344b1b380c0e966e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Purple.prefab using Guid(e5b6e40db88c14344b1b380c0e966e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0683eca92e8d278efbee6a3e206884a0') in 0.018317 seconds 
+  Import took 0.027586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab
+  artifactKey: Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_White.prefab using Guid(7cb597517601cb34ca402b0e1d742578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ab0ecc062b09bf967b1337d32c3684') in 0.019988 seconds 
+  Import took 0.028775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab
+  artifactKey: Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Modern_Gray.prefab using Guid(9cba3f19103249f49a089c693f633e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff453e125809a22ccc5bb0f6db8699f') in 0.013936 seconds 
+  Import took 0.022190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab
+  artifactKey: Guid(65e1b17be55fde04f921004e190ce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Rect_Green.prefab using Guid(65e1b17be55fde04f921004e190ce003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb4e5c308c7317501a18ec2f9a7bbb7') in 0.013359 seconds 
+  Import took 0.020304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab
+  artifactKey: Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab using Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450ace6d15d43f832f79cb8d8e78b7ef') in 0.018948 seconds 
+  Import took 0.030316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Red.prefab
+  artifactKey: Guid(b951a849336641c4fab7cc6d23fd2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Red.prefab using Guid(b951a849336641c4fab7cc6d23fd2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f047ff16afa1f7562dd88e886d0b01') in 0.012902 seconds 
+  Import took 0.019588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d30a3af66090d48368e05d43fcab2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c360b8c6e106bba4292cae70defaca9a') in 0.266627 seconds 
+  Import took 0.274986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Blue.prefab
+  artifactKey: Guid(51c07d60274ac13489e2a61ff62c251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Blue.prefab using Guid(51c07d60274ac13489e2a61ff62c251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f100f8ef3775a5fe7065e6101835e9ea') in 0.017992 seconds 
+  Import took 0.027444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Gray.prefab
+  artifactKey: Guid(4fedbc191226c1146a147611e5fc67ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Rect_Gray.prefab using Guid(4fedbc191226c1146a147611e5fc67ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f582d9c06bace4952cb5db8dd194a1d0') in 0.013645 seconds 
+  Import took 0.022450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Brown.prefab
+  artifactKey: Guid(d1a190085dcf07e4c9961f5b83d0c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Brown.prefab using Guid(d1a190085dcf07e4c9961f5b83d0c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e6cf2ea7cb3bc2909d00d9d205fd33') in 0.014600 seconds 
+  Import took 0.022529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab
+  artifactKey: Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Drawers_Modern_Dark.prefab using Guid(f2a2e305f7be1c94f8797498da715c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb222839e0131b7ba990e67a91b7ee2') in 0.014411 seconds 
+  Import took 0.021358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Blue.prefab
+  artifactKey: Guid(cc8e9c60e8b51f541b58d256ac509ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Mat_Round_Blue.prefab using Guid(cc8e9c60e8b51f541b58d256ac509ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6eaa0329f3170cca0c3fa355a358072') in 0.014692 seconds 
+  Import took 0.022531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab
+  artifactKey: Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rugs/Rug_Oval_Purple.prefab using Guid(2a0989c512f34104c9d5ca8e832c0b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8117d656b42f5f24dcaaf107f0374ca') in 0.013531 seconds 
+  Import took 0.020574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Gray.prefab
+  artifactKey: Guid(0eb8793a9b9aa6b4c8a601e1e50f6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Modern_Gray.prefab using Guid(0eb8793a9b9aa6b4c8a601e1e50f6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87c46491ce8801fc3df36abf38fac11') in 0.019548 seconds 
+  Import took 0.027263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab
+  artifactKey: Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Plants/Plant_A.prefab using Guid(e8f8deb5a30624e479e669f8e64613b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972df64d65e9dd911eadcf2c2af07ad6') in 0.017124 seconds 
+  Import took 0.025168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_Course Library/_Prefabs/Storage/Shelving_Traditional.prefab
+  artifactKey: Guid(fc29def7fd957db4085fce30f5fcefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Storage/Shelving_Traditional.prefab using Guid(fc29def7fd957db4085fce30f5fcefcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363b2a077fb8ed1a5ea836027e20100a') in 0.014885 seconds 
+  Import took 0.022891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.393752 seconds.
+  path: Assets/Scenes/savannah.unity
+  artifactKey: Guid(b755b7210a58641c4b2fc92c2e81d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/savannah.unity using Guid(b755b7210a58641c4b2fc92c2e81d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a92cccd35da1da18c18cf5bf6f5cb3') in 0.020307 seconds 
+  Import took 0.046662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.215092 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Umb3_y_w.tif
+  artifactKey: Guid(6fcd6b0eebce5481fbaaf0abb1706346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Umb3_y_w.tif using Guid(6fcd6b0eebce5481fbaaf0abb1706346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1e74b4296d49efa7edc328a2134e87') in 1.001789 seconds 
+  Import took 1.038127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006169 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/wood.jpg
+  artifactKey: Guid(d8e022450ae4f4316ad520dba77df5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/wood.jpg using Guid(d8e022450ae4f4316ad520dba77df5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a018909588555bc4667f6cc2268c82dd') in 0.519109 seconds 
+  Import took 0.530282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004127 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Umb3_y_w.tif
+  artifactKey: Guid(6fcd6b0eebce5481fbaaf0abb1706346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Umb3_y_w.tif using Guid(6fcd6b0eebce5481fbaaf0abb1706346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1e74b4296d49efa7edc328a2134e87') in 0.010530 seconds 
+  Import took 0.020466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/wood.jpg
+  artifactKey: Guid(d8e022450ae4f4316ad520dba77df5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/wood.jpg using Guid(d8e022450ae4f4316ad520dba77df5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a018909588555bc4667f6cc2268c82dd') in 0.008481 seconds 
+  Import took 0.018374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx
+  artifactKey: Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx using Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf952ed11f6958e862bc52ce2bc8089f') in 0.745467 seconds 
+  Import took 0.756642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005466 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx
+  artifactKey: Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx using Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf952ed11f6958e862bc52ce2bc8089f') in 0.360177 seconds 
+  Import took 0.369845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.224605 seconds.
+  path: Assets/Savannah/VFZ9ARPYQMBGMGTX7BM8WH9ID_fbx/Ostrich_D.jpg
+  artifactKey: Guid(4f716e44bb4ea42ce97819232cfcd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/VFZ9ARPYQMBGMGTX7BM8WH9ID_fbx/Ostrich_D.jpg using Guid(4f716e44bb4ea42ce97819232cfcd8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c3bbfec24d41ec76e2da00b07885c7') in 0.019175 seconds 
+  Import took 0.034226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Savannah/VFZ9ARPYQMBGMGTX7BM8WH9ID_fbx/VFZ9ARPYQMBGMGTX7BM8WH9ID.jpg
+  artifactKey: Guid(8482b1f37bf754eeab503e2352ea8dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/VFZ9ARPYQMBGMGTX7BM8WH9ID_fbx/VFZ9ARPYQMBGMGTX7BM8WH9ID.jpg using Guid(8482b1f37bf754eeab503e2352ea8dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d4c5feba68b2e8df28cf3be621ef63') in 0.009776 seconds 
+  Import took 0.019448 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4607ms)
+		BeginReloadAssembly (412ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (161ms)
+		EndReloadAssembly (4087ms)
+			LoadAssemblies (274ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (558ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (2301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (1931ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (80ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Unloading 4690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 427.5 MB.
+System memory in use after: 427.5 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 5612.
+Total: 14.098375 ms (FindLiveObjects: 0.760166 ms CreateObjectMapping: 0.221584 ms MarkObjects: 12.654042 ms  DeleteObjects: 0.461292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
