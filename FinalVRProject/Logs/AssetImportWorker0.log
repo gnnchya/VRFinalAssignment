@@ -22,101 +22,101 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49233
+51065
 Successfully changed project path to: /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 320.58 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 13.62 ms.
+Refreshing native plugins compatible for Editor in 278.05 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 11.21 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/gnnchya/Documents/VRFinalAssignment/FinalVRProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-12-09 14:20:39.049 Unity[3056:13896010] (null) preferred device: Apple M1 (high power)
-2021-12-09 14:20:39.049 Unity[3056:13896010] Metal devices available: 1
-2021-12-09 14:20:39.049 Unity[3056:13896010] 0: Apple M1 (high power)
-2021-12-09 14:20:39.049 Unity[3056:13896010] Using device Apple M1 (high power)
+2021-12-13 12:04:40.578 Unity[37444:14552611] (null) preferred device: Apple M1 (high power)
+2021-12-13 12:04:40.578 Unity[37444:14552611] Metal devices available: 1
+2021-12-13 12:04:40.578 Unity[37444:14552611] 0: Apple M1 (high power)
+2021-12-13 12:04:40.578 Unity[37444:14552611] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001762 seconds.
+Registered in 0.001371 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 138.20 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.86 ms.
+Refreshing native plugins compatible for Editor in 105.63 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.022 seconds
+- Completed reload, in  2.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3022ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (2765ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1225ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (9ms)
+		EndReloadAssembly (1282ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (743ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (858ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (357ms)
-				ProcessInitializeOnLoadMethodAttributes (130ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (203ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (3ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009549 seconds.
+Registered in 0.010156 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 120.36 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.64 ms.
+Refreshing native plugins compatible for Editor in 119.74 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.901 seconds
+- Completed reload, in  3.880 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3905ms)
-		BeginReloadAssembly (313ms)
+	ReloadAssembly (3883ms)
+		BeginReloadAssembly (283ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (40ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (3489ms)
-			LoadAssemblies (259ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (3504ms)
+			LoadAssemblies (237ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (506ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (2196ms)
+			SetupLoadedEditorAssemblies (2217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (121ms)
-				BeforeProcessingInitializeOnLoad (233ms)
-				ProcessInitializeOnLoadAttributes (1812ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (1826ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.116820 seconds.
+Validating Project structure ... 0.101929 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.087685 seconds.
+Upgrading shader files ...0.104507 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -127,19 +127,19 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.44 ms.
+Refreshing native plugins compatible for Editor in 2.44 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Unloading 5020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 432.4 MB.
-System memory in use after: 430.0 MB.
+System memory in use before: 433.2 MB.
+System memory in use after: 430.8 MB.
 
 Unloading 594 unused Assets to reduce memory usage. Loaded Objects now: 5514.
-Total: 9.083792 ms (FindLiveObjects: 0.846083 ms CreateObjectMapping: 0.219291 ms MarkObjects: 6.426667 ms  DeleteObjects: 1.590333 ms)
+Total: 8.221750 ms (FindLiveObjects: 0.810166 ms CreateObjectMapping: 0.186958 ms MarkObjects: 5.537667 ms  DeleteObjects: 1.685833 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,240 +153,590 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Savannah/trees/hill-top-tree/source/Hill Top Tree.fbx
-  artifactKey: Guid(5ae8fa35380eb421191c8321c7047eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/trees/hill-top-tree/source/Hill Top Tree.fbx using Guid(5ae8fa35380eb421191c8321c7047eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed649f7aecec7d171c2560770c1fe7') in 2.250190 seconds 
-  Import took 2.291033 seconds .
+  path: Assets/Scripts/teleport.cs
+  artifactKey: Guid(09c0aa8454745494bbc7bf093b6f9d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/teleport.cs using Guid(09c0aa8454745494bbc7bf093b6f9d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae3385dbeeaf373588b6d310774cd63') in 0.516876 seconds 
+  Import took 0.525863 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.092302 seconds.
-  path: Assets/Savannah/giraffemotions/source/African Animal - Giraffe.fbx
-  artifactKey: Guid(b0a6eed29e657415e8c0bdf7ada474e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/giraffemotions/source/African Animal - Giraffe.fbx using Guid(b0a6eed29e657415e8c0bdf7ada474e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288b217a0bd620a41062a05394a701b8') in 0.225164 seconds 
-  Import took 0.237280 seconds .
+  Time since last request: 22.000831 seconds.
+  path: Assets/Scripts/gate_opening.cs
+  artifactKey: Guid(b032378a37cef40d6b48d3850679e9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/gate_opening.cs using Guid(b032378a37cef40d6b48d3850679e9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc99e9a5a2ad326051ab6e9b10f7f414') in 0.016608 seconds 
+  Import took 0.083106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.214004 seconds.
-  path: Assets/Savannah/giraffe (1)/source/Giraffe.obj
-  artifactKey: Guid(ec44c4fa58bd14651b72d4569d1cc0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/giraffe (1)/source/Giraffe.obj using Guid(ec44c4fa58bd14651b72d4569d1cc0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e91cff8477d40a794626aa7af1ef4b') in 0.984770 seconds 
-  Import took 1.013650 seconds .
+  Time since last request: 0.083035 seconds.
+  path: Assets/Scripts/gate_opening.cs
+  artifactKey: Guid(b032378a37cef40d6b48d3850679e9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/gate_opening.cs using Guid(b032378a37cef40d6b48d3850679e9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc99e9a5a2ad326051ab6e9b10f7f414') in 0.001399 seconds 
+  Import took 0.018911 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 6.83 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 12.91 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5709ms)
+		BeginReloadAssembly (549ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (243ms)
+		EndReloadAssembly (5001ms)
+			LoadAssemblies (397ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (625ms)
+			ReleaseScriptCaches (27ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (2947ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (20ms)
+				BeforeProcessingInitializeOnLoad (497ms)
+				ProcessInitializeOnLoadAttributes (2382ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 4691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 409.8 MB.
+System memory in use after: 409.8 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 5530.
+Total: 15.504375 ms (FindLiveObjects: 0.831750 ms CreateObjectMapping: 0.247041 ms MarkObjects: 13.528875 ms  DeleteObjects: 0.894584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.14 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 10.50 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5395ms)
+		BeginReloadAssembly (552ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (64ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (230ms)
+		EndReloadAssembly (4707ms)
+			LoadAssemblies (386ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (2812ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (14ms)
+				BeforeProcessingInitializeOnLoad (395ms)
+				ProcessInitializeOnLoadAttributes (2358ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (83ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.51 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
+Unloading 4691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 411.5 MB.
+System memory in use after: 411.5 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5544.
+Total: 31.337958 ms (FindLiveObjects: 1.299584 ms CreateObjectMapping: 0.228625 ms MarkObjects: 26.748959 ms  DeleteObjects: 3.058125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4682ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (181ms)
+		EndReloadAssembly (4163ms)
+			LoadAssemblies (317ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (518ms)
+			ReleaseScriptCaches (33ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (2447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (377ms)
+				ProcessInitializeOnLoadAttributes (2032ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (106ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 4691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 411.9 MB.
+System memory in use after: 411.9 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5558.
+Total: 9.143875 ms (FindLiveObjects: 0.462291 ms CreateObjectMapping: 0.214917 ms MarkObjects: 7.828666 ms  DeleteObjects: 0.637208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 10.29 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 29.83 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6432ms)
+		BeginReloadAssembly (972ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (152ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (441ms)
+		EndReloadAssembly (5337ms)
+			LoadAssemblies (745ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (945ms)
+			ReleaseScriptCaches (35ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (2527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (403ms)
+				ProcessInitializeOnLoadAttributes (2031ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (151ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.38 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.89 ms.
+Unloading 4691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 412.3 MB.
+System memory in use after: 412.3 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5572.
+Total: 51.480583 ms (FindLiveObjects: 7.118542 ms CreateObjectMapping: 0.240666 ms MarkObjects: 43.090750 ms  DeleteObjects: 1.027500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16658.371779 seconds.
+  path: Assets/Prefabs/Entrance/ticket/ticket.prefab
+  artifactKey: Guid(0e4ab49d971194661be9ee60709d43d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/ticket/ticket.prefab using Guid(0e4ab49d971194661be9ee60709d43d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09446790b4dbc4442d3e9dab212045c') in 1.824333 seconds 
+  Import took 2.444724 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009651 seconds.
-  path: Assets/Savannah/giraffe (1)/source/Giraffe.obj
-  artifactKey: Guid(ec44c4fa58bd14651b72d4569d1cc0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/giraffe (1)/source/Giraffe.obj using Guid(ec44c4fa58bd14651b72d4569d1cc0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e91cff8477d40a794626aa7af1ef4b') in 0.027500 seconds 
-  Import took 0.037349 seconds .
+  Time since last request: 14.834331 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SystemGestureHandMaterial.mat
+  artifactKey: Guid(6b3381fce337f7049a8972d9356bde5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SystemGestureHandMaterial.mat using Guid(6b3381fce337f7049a8972d9356bde5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f5ccf25af8c7674f78ca6545381c3') in 1.622075 seconds 
+  Import took 1.682549 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.236214 seconds.
-  path: Assets/Savannah/giraffe (1)/textures/GiraffeTEXTURE_vcols.png~.png
-  artifactKey: Guid(99b1d576bfa284b56888c2cfd8d747b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/giraffe (1)/textures/GiraffeTEXTURE_vcols.png~.png using Guid(99b1d576bfa284b56888c2cfd8d747b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e068260c34a492d015301157ddc7e1a') in 0.428929 seconds 
-  Import took 0.439840 seconds .
+  Time since last request: 0.004880 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_CinemaText.mat
+  artifactKey: Guid(a637033578b1e584f9d9f4d5255d5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_CinemaText.mat using Guid(a637033578b1e584f9d9f4d5255d5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93af1e2e066ddd78891a6326cfb4aa2') in 0.375861 seconds 
+  Import took 0.418393 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.394390 seconds.
-  path: Assets/Savannah/giraffe (1)/source/Giraffe.obj
-  artifactKey: Guid(ec44c4fa58bd14651b72d4569d1cc0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/giraffe (1)/source/Giraffe.obj using Guid(ec44c4fa58bd14651b72d4569d1cc0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac37d71f0d9268caf195120e43ccaadf') in 0.069864 seconds 
-  Import took 0.083347 seconds .
+  Time since last request: 0.000293 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Lost.mat
+  artifactKey: Guid(91e0b34c2b2f4e044921cd8113d0d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Lost.mat using Guid(91e0b34c2b2f4e044921cd8113d0d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed1b177075122cfaa4a251829c0facb') in 0.015325 seconds 
+  Import took 0.024677 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.751611 seconds.
-  path: Assets/Savannah/stylized-deer/source/Deer_set.fbx
-  artifactKey: Guid(4cb6f325b0ea64abe87fec1dea7c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/stylized-deer/source/Deer_set.fbx using Guid(4cb6f325b0ea64abe87fec1dea7c859e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e149022eed5062a8b75257bd52629e6') in 0.050798 seconds 
-  Import took 0.101381 seconds .
+  Time since last request: 0.000747 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_360Photo.mat
+  artifactKey: Guid(8388a76b6d38060498be3f057adc62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_360Photo.mat using Guid(8388a76b6d38060498be3f057adc62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5794c853ad928e24d6b89e16a57c0586') in 0.024017 seconds 
+  Import took 0.032143 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.143527 seconds.
-  path: Assets/Savannah/low-poly-lazy-deer/source/deer/Line022_2019-05-02_02-02-29_complete.rpf_converted.jpg
-  artifactKey: Guid(2bfa77dd5a97c444e8a08d583a196d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/low-poly-lazy-deer/source/deer/Line022_2019-05-02_02-02-29_complete.rpf_converted.jpg using Guid(2bfa77dd5a97c444e8a08d583a196d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d8eee160fc3cf64b45c37bbeb19e0a') in 0.448188 seconds 
-  Import took 0.463393 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyBallWithOutline.mat
+  artifactKey: Guid(beb3a042b07e94503947a8f63d10c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyBallWithOutline.mat using Guid(beb3a042b07e94503947a8f63d10c46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29df9d53bf1c784ac087f0488f70a11') in 0.022414 seconds 
+  Import took 0.031611 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004312 seconds.
-  path: Assets/Savannah/low-poly-lazy-deer/source/deer/Line022_2019-05-02_02-02-29_complete.rpf_converted.jpg
-  artifactKey: Guid(2bfa77dd5a97c444e8a08d583a196d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/low-poly-lazy-deer/source/deer/Line022_2019-05-02_02-02-29_complete.rpf_converted.jpg using Guid(2bfa77dd5a97c444e8a08d583a196d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d8eee160fc3cf64b45c37bbeb19e0a') in 0.009603 seconds 
-  Import took 0.017487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.675932 seconds.
-  path: Assets/Savannah/low-poly-lazy-deer/source/deer/deer.fbx
-  artifactKey: Guid(c5e9dd7674499422f8ee8563c2cbe6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/low-poly-lazy-deer/source/deer/deer.fbx using Guid(c5e9dd7674499422f8ee8563c2cbe6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ace153d0d68b89df7af66151515652') in 0.125381 seconds 
-  Import took 0.137842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.672318 seconds.
-  path: Assets/Savannah/elephant/source/SKETCHFAB/ELEFANTE.obj
-  artifactKey: Guid(0da7df216d45f457482ab80eb363a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/elephant/source/SKETCHFAB/ELEFANTE.obj using Guid(0da7df216d45f457482ab80eb363a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcad93827534c2deec1eaadd7ae9f8b9') in 0.070347 seconds 
-  Import took 0.128800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.879975 seconds.
-  path: Assets/Savannah/elephant/source/SKETCHFAB/ELEFANTE.obj
-  artifactKey: Guid(0da7df216d45f457482ab80eb363a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/elephant/source/SKETCHFAB/ELEFANTE.obj using Guid(0da7df216d45f457482ab80eb363a340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686ae569edb134186ec9b1d85ea937b6') in 0.043239 seconds 
-  Import took 0.051931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.490900 seconds.
-  path: Assets/Hippopotamus/source/Hippopotamus.blend
-  artifactKey: Guid(fb2f9575cf1e29443a4d5e533fcb69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hippopotamus/source/Hippopotamus.blend using Guid(fb2f9575cf1e29443a4d5e533fcb69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f00f4c6f42650eb67f6be97cd0de119') in 0.588236 seconds 
-  Import took 0.629058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.361005 seconds.
-  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_diff.jpg
-  artifactKey: Guid(83601050ec2ffb843835116b80fa7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_diff.jpg using Guid(83601050ec2ffb843835116b80fa7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07251c8468cf0f02f3277b20bd5add7e') in 0.022392 seconds 
-  Import took 0.043314 seconds .
+  Time since last request: 0.001729 seconds.
+  path: Assets/Savannah/transparent.mat
+  artifactKey: Guid(7d7a732e3a00040fbb3f62caeae637ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/transparent.mat using Guid(7d7a732e3a00040fbb3f62caeae637ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16aa6d8b42654ae3bc887bfd981d8f9d') in 0.049171 seconds 
+  Import took 0.058217 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000442 seconds.
-  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj
-  artifactKey: Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj using Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0698893a96c7010e468331fb5dd4db4a') in 0.038580 seconds 
-  Import took 0.046737 seconds .
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyCubeWithOutline.mat
+  artifactKey: Guid(99420f5a26a93487aa0ae70d73da8c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyCubeWithOutline.mat using Guid(99420f5a26a93487aa0ae70d73da8c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20839b757cd978199396abc49f00e90d') in 0.023092 seconds 
+  Import took 0.033155 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_diff.jpg
-  artifactKey: Guid(83601050ec2ffb843835116b80fa7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_diff.jpg using Guid(83601050ec2ffb843835116b80fa7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07251c8468cf0f02f3277b20bd5add7e') in 0.008670 seconds 
-  Import took 0.015829 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/ToyCubeMat.mat
+  artifactKey: Guid(b63c152e975e0be45929851911662d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/ToyCubeMat.mat using Guid(b63c152e975e0be45929851911662d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec00a71738f76063d120b76deea9244') in 0.013972 seconds 
+  Import took 0.024336 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj
-  artifactKey: Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj using Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0698893a96c7010e468331fb5dd4db4a') in 0.029078 seconds 
-  Import took 0.036344 seconds .
+  Time since last request: 0.000518 seconds.
+  path: Assets/food/common-table-and-chair/source/Common Table and Chair/Common Table and Chair.blend
+  artifactKey: Guid(04f32887a4eee462490b5328b5299b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/common-table-and-chair/source/Common Table and Chair/Common Table and Chair.blend using Guid(04f32887a4eee462490b5328b5299b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7677729809a3697dd9071aaf3d4581') in 0.989128 seconds 
+  Import took 1.004672 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.511469 seconds.
-  path: Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj
-  artifactKey: Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/ducklesscolor/12249_Bird_v1_L2.obj using Guid(2a66f7b05bc0a10428fb75940b5268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1396f5a873357b4463cdf1d91f43e9') in 0.033099 seconds 
-  Import took 0.041431 seconds .
+  Time since last request: 0.003740 seconds.
+  path: Assets/food/common-table-and-chair/source/Common Table and Chair/common_table_and _chair.fbx
+  artifactKey: Guid(6c431a593dbfd4b2ba79705fef457944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/common-table-and-chair/source/Common Table and Chair/common_table_and _chair.fbx using Guid(6c431a593dbfd4b2ba79705fef457944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca642f64f059ea6982369cd5f85cb74') in 0.297926 seconds 
+  Import took 0.308171 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.814934 seconds.
-  path: Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_diff.jpg
-  artifactKey: Guid(f18a1b1250459974788407607c2469e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_diff.jpg using Guid(f18a1b1250459974788407607c2469e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5ea2d6b5d996a1ae33f82434189c0') in 0.027410 seconds 
-  Import took 0.037987 seconds .
+  Time since last request: 0.002302 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/ToyBallMat.mat
+  artifactKey: Guid(b0b0cd8f767a3f34384866cbf226b83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/ToyBallMat.mat using Guid(b0b0cd8f767a3f34384866cbf226b83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46abce13b7551abbfbea6e0ba538deaf') in 0.074213 seconds 
+  Import took 0.081976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj
-  artifactKey: Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj using Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a5f6edb9b2a65e1d281fdde269cd56') in 0.033063 seconds 
-  Import took 0.040569 seconds .
+  Time since last request: 0.000304 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_BackgroundHighlight.mat
+  artifactKey: Guid(081039a448bec6e48827af5f9b606f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_BackgroundHighlight.mat using Guid(081039a448bec6e48827af5f9b606f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10d3487f9deb20313360bebbfcf9861') in 0.045642 seconds 
+  Import took 0.052254 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001431 seconds.
-  path: Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj
-  artifactKey: Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj using Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a5f6edb9b2a65e1d281fdde269cd56') in 0.036050 seconds 
-  Import took 0.043859 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SystemGestureSkeletonBoneMaterial.mat
+  artifactKey: Guid(a3aacb3bb3e11b948899db3fbefc6fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SystemGestureSkeletonBoneMaterial.mat using Guid(a3aacb3bb3e11b948899db3fbefc6fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a224e2ee4a4538109f26a1bc474aef') in 0.009278 seconds 
+  Import took 0.016104 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.902051 seconds.
-  path: Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj
-  artifactKey: Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/greenheadduck/12248_Bird_v1_L2.obj using Guid(914b8ab1f2870504cb22f3cb0ce0e24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6d02fce9d75cd44ec07a966ee5d1d3') in 0.048495 seconds 
-  Import took 0.056079 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Locomotion/Materials/TeleportLaser.mat
+  artifactKey: Guid(a379cec2ba497874788d17eb312c61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Locomotion/Materials/TeleportLaser.mat using Guid(a379cec2ba497874788d17eb312c61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0997c9a81194f4f17ad64f1e04c5108') in 0.009764 seconds 
+  Import took 0.017615 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.642505 seconds.
-  path: Assets/birdcage/bird models/whiteparrot/12259_bird_diffuse.jpg
-  artifactKey: Guid(a508af115ad218541ab20048b56195f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/whiteparrot/12259_bird_diffuse.jpg using Guid(a508af115ad218541ab20048b56195f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5efe8395442db7d594869a8b761acc') in 0.034942 seconds 
-  Import took 0.080371 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_OculusVideo.mat
+  artifactKey: Guid(094be3701c9869d41b1dadbb555ee720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_OculusVideo.mat using Guid(094be3701c9869d41b1dadbb555ee720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505101ef6403c5aad908f46bc75bdeaf') in 0.014234 seconds 
+  Import took 0.021036 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/birdcage/bird models/whiteparrot/12259_Bird_v1_L2.obj
-  artifactKey: Guid(0bb4db96bbf93184998dd088eb68f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/whiteparrot/12259_Bird_v1_L2.obj using Guid(0bb4db96bbf93184998dd088eb68f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e743ffc9f2074d043be0d8927e38fcbf') in 0.038839 seconds 
-  Import took 0.046198 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Farlands.mat
+  artifactKey: Guid(b2e6fa7c3e83eee489247ced515747cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Farlands.mat using Guid(b2e6fa7c3e83eee489247ced515747cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7611b0d255dd0e7865dbad693b8366') in 0.020656 seconds 
+  Import took 0.028237 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.542004 seconds.
-  path: Assets/birdcage/bird models/whiteparrot/12259_Bird_v1_L2.obj
-  artifactKey: Guid(0bb4db96bbf93184998dd088eb68f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/birdcage/bird models/whiteparrot/12259_Bird_v1_L2.obj using Guid(0bb4db96bbf93184998dd088eb68f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aaf0a25830f75d8bd4c6ecc5398ba8') in 0.058823 seconds 
-  Import took 0.068124 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Henry.mat
+  artifactKey: Guid(e4486e58dde90df498b2efdcf4292917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Henry.mat using Guid(e4486e58dde90df498b2efdcf4292917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956ac98d7724b60bb90446a3379c636b') in 0.013562 seconds 
+  Import took 0.021173 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.547734 seconds.
-  path: Assets/Tigers/tiger-rescan-photo-test/source/texture_0.png
-  artifactKey: Guid(f80bae52a54f9436993a59c2bc8c7aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-rescan-photo-test/source/texture_0.png using Guid(f80bae52a54f9436993a59c2bc8c7aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d855368b6e87008277bed3f2db4081a') in 0.028142 seconds 
-  Import took 0.072317 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Models/touch_controller_MAT.mat
+  artifactKey: Guid(d8a202bc350b09c4e808ea37c6929755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Models/touch_controller_MAT.mat using Guid(d8a202bc350b09c4e808ea37c6929755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd911c1ed7b1d8ae7f1992d837eed935') in 0.020493 seconds 
+  Import took 0.026601 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Tigers/tiger-rescan-photo-test/source/Tiger done 1dnew.fbx
-  artifactKey: Guid(fe461dce035634db5ba27e66a3119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-rescan-photo-test/source/Tiger done 1dnew.fbx using Guid(fe461dce035634db5ba27e66a3119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038dfdbe6459c5cc3db33db525ef9d1b') in 0.037585 seconds 
-  Import took 0.044797 seconds .
+  Time since last request: 0.000702 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat
+  artifactKey: Guid(7c4fbc253f678a74f8135c524ac84bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat using Guid(7c4fbc253f678a74f8135c524ac84bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8896e404b4bbc4286f869e5439bbb7f') in 0.009691 seconds 
+  Import took 0.017030 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Tigers/tiger-rescan-photo-test/source/texture_0.png
-  artifactKey: Guid(f80bae52a54f9436993a59c2bc8c7aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-rescan-photo-test/source/texture_0.png using Guid(f80bae52a54f9436993a59c2bc8c7aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d855368b6e87008277bed3f2db4081a') in 0.013390 seconds 
-  Import took 0.020504 seconds .
+  Time since last request: 0.000270 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Cinema.mat
+  artifactKey: Guid(354a5d3fc93892c44978423fd55d7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Cinema.mat using Guid(354a5d3fc93892c44978423fd55d7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57597d96df31655d379decf6ad285c27') in 0.027465 seconds 
+  Import took 0.034856 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.003746 seconds.
-  path: Assets/Tigers/tiger-rescan-photo-test/source/Tiger done 1dnew.fbx
-  artifactKey: Guid(fe461dce035634db5ba27e66a3119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-rescan-photo-test/source/Tiger done 1dnew.fbx using Guid(fe461dce035634db5ba27e66a3119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e555dfc01ab757a26f68dbd528b953df') in 0.026768 seconds 
-  Import took 0.039881 seconds .
+  Time since last request: 0.000377 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/touchController_basecolor.mat
+  artifactKey: Guid(1caef85feb223044d801a24540271231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/touchController_basecolor.mat using Guid(1caef85feb223044d801a24540271231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b1f942b65b79e5990ff39aa26b43f5') in 0.010893 seconds 
+  Import took 0.018888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.032480 seconds.
-  path: Assets/Tigers/tiger-rescan-photo-test/source/Tiger done 1dnew.fbx
-  artifactKey: Guid(fe461dce035634db5ba27e66a3119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tigers/tiger-rescan-photo-test/source/Tiger done 1dnew.fbx using Guid(fe461dce035634db5ba27e66a3119c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e555dfc01ab757a26f68dbd528b953df') in 0.032868 seconds 
-  Import took 0.042989 seconds .
+  Time since last request: 4049.316521 seconds.
+  path: Assets/Scripts/throeingGame.cs
+  artifactKey: Guid(7d48e188ef7cb4fde88b361a7e893178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/throeingGame.cs using Guid(7d48e188ef7cb4fde88b361a7e893178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0c6dd92b26c5a2a2abbb9f6bdd94d1') in 0.084517 seconds 
+  Import took 0.285496 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.43 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 6.82 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5284ms)
+		BeginReloadAssembly (713ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (80ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (332ms)
+		EndReloadAssembly (4434ms)
+			LoadAssemblies (509ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (14ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (2373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (422ms)
+				ProcessInitializeOnLoadAttributes (1903ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (86ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Unloading 4692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 432.6 MB.
+System memory in use after: 432.6 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5669.
+Total: 12.268583 ms (FindLiveObjects: 3.685167 ms CreateObjectMapping: 0.261583 ms MarkObjects: 7.624458 ms  DeleteObjects: 0.696416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.75 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4890ms)
+		BeginReloadAssembly (437ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (57ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (187ms)
+		EndReloadAssembly (4345ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (520ms)
+			ReleaseScriptCaches (14ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (2578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (364ms)
+				ProcessInitializeOnLoadAttributes (2164ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (93ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Unloading 4692 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 433.1 MB.
+System memory in use after: 433.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5683.
+Total: 7.951459 ms (FindLiveObjects: 0.468209 ms CreateObjectMapping: 0.218375 ms MarkObjects: 6.701625 ms  DeleteObjects: 0.562625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.918095 seconds.
+  path: Assets/Scripts/throwingGame.cs
+  artifactKey: Guid(7d48e188ef7cb4fde88b361a7e893178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/throwingGame.cs using Guid(7d48e188ef7cb4fde88b361a7e893178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cabe5c136ed120d355c92c4ac71eabb') in 0.060249 seconds 
+  Import took 0.097756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3219.440076 seconds.
+  path: Assets/Materials/green.mat
+  artifactKey: Guid(dc3b08403e39647c4b742034b539f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/green.mat using Guid(dc3b08403e39647c4b742034b539f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3197b45a4ef9fab2337d8f00780c1ad6') in 2.284963 seconds 
+  Import took 2.566054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.832641 seconds.
+  path: Assets/Materials/red.mat
+  artifactKey: Guid(f81f10ca0bac04d089bdaf2b607ad82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/red.mat using Guid(f81f10ca0bac04d089bdaf2b607ad82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b493b41fc99f188d84ab65919f8e54b6') in 0.066036 seconds 
+  Import took 0.135590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.649813 seconds.
+  path: Assets/Materials/green.mat
+  artifactKey: Guid(dc3b08403e39647c4b742034b539f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/green.mat using Guid(dc3b08403e39647c4b742034b539f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c7dcd795352b122aa9c8a7c88ff62d') in 0.094974 seconds 
+  Import took 0.148578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Materials/red.mat
+  artifactKey: Guid(f81f10ca0bac04d089bdaf2b607ad82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/red.mat using Guid(f81f10ca0bac04d089bdaf2b607ad82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a7d17f11175e87ad7e4a7751f52a4f') in 0.031301 seconds 
+  Import took 0.048969 seconds .
 
