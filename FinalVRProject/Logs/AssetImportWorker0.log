@@ -2,8 +2,8 @@ Unity Editor version:    2020.3.17f1 (a4537701e4ab)
 Branch:                  2020.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 11.6 (Build 20G165)
-Darwin version:          20.6.0
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
 Architecture:            x86_64
 Running under Rosetta:   YES
 Available memory:        8192 MB
@@ -18,105 +18,105 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject
+/Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49847
-Successfully changed project path to: /Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject
-/Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject
+57572
+Successfully changed project path to: /Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject
+/Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 294.34 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 11.97 ms.
+Refreshing native plugins compatible for Editor in 188.46 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 9.80 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject/Assets
+[Subsystems] Discovering subsystems at path /Users/pitsinee/Documents/GitHub/VR_group_project/FinalVRProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-12-14 22:40:09.581 Unity[66061:27387960] (null) preferred device: Apple M1 (high power)
-2021-12-14 22:40:09.581 Unity[66061:27387960] Metal devices available: 1
-2021-12-14 22:40:09.581 Unity[66061:27387960] 0: Apple M1 (high power)
-2021-12-14 22:40:09.581 Unity[66061:27387960] Using device Apple M1 (high power)
+2021-12-15 00:48:39.488 Unity[15840:641872] (null) preferred device: Apple M1 (high power)
+2021-12-15 00:48:39.488 Unity[15840:641872] Metal devices available: 1
+2021-12-15 00:48:39.488 Unity[15840:641872] 0: Apple M1 (high power)
+2021-12-15 00:48:39.488 Unity[15840:641872] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56061
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001341 seconds.
+Registered in 0.002018 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 106.92 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.87 ms.
+Refreshing native plugins compatible for Editor in 130.26 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.625 seconds
+- Completed reload, in  1.991 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2626ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1992ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1033ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (604ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (643ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (131ms)
 				BeforeProcessingInitializeOnLoad (29ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007460 seconds.
+Registered in 0.009024 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 120.77 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.72 ms.
+Refreshing native plugins compatible for Editor in 137.54 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.807 seconds
+- Completed reload, in  3.877 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3810ms)
-		BeginReloadAssembly (289ms)
+	ReloadAssembly (3881ms)
+		BeginReloadAssembly (277ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (3422ms)
-			LoadAssemblies (266ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (3509ms)
+			LoadAssemblies (254ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (491ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (2127ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (2283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (209ms)
-				ProcessInitializeOnLoadAttributes (1766ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (1936ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.133531 seconds.
+Validating Project structure ... 0.041978 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.089580 seconds.
+Upgrading shader files ...0.090358 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -127,19 +127,21 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
 Initializing Unity extensions:
+2021-12-15 00:48:49.084 Unity[15840:641872] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000012a4a80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-12-15 00:48:49.092 Unity[15840:641872] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000012c33a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
-Unloading 5022 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 416.4 MB.
-System memory in use after: 413.8 MB.
+Refreshing native plugins compatible for Editor in 2.25 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 447.6 MB.
+System memory in use after: 445.0 MB.
 
-Unloading 602 unused Assets to reduce memory usage. Loaded Objects now: 5507.
-Total: 6.554125 ms (FindLiveObjects: 1.522584 ms CreateObjectMapping: 0.163167 ms MarkObjects: 3.471084 ms  DeleteObjects: 1.395084 ms)
+Unloading 601 unused Assets to reduce memory usage. Loaded Objects now: 5509.
+Total: 7.819917 ms (FindLiveObjects: 0.853333 ms CreateObjectMapping: 0.186042 ms MarkObjects: 5.136459 ms  DeleteObjects: 1.642542 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,64 +155,96 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/foodTruck.unity
-  artifactKey: Guid(aa352858dab3f4d79a413701f66a4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/foodTruck.unity using Guid(aa352858dab3f4d79a413701f66a4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ba1c685daa07563b9dce63b9e7f65e') in 0.029311 seconds 
-  Import took 0.039186 seconds .
+  path: Assets/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53acc889ccf52fc012c9d7d231ace2e') in 0.719089 seconds 
+  Import took 0.731152 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.261567 seconds.
-  path: Assets/food/food-collection/textures/00fjgr2g-900_COLOR.jpg
-  artifactKey: Guid(af271de74ea4b4469855f485ea70b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-collection/textures/00fjgr2g-900_COLOR.jpg using Guid(af271de74ea4b4469855f485ea70b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27f3e8201f1829257c6f54922a3f163') in 0.911324 seconds 
-  Import took 0.950966 seconds .
+  Time since last request: 197.871650 seconds.
+  path: Assets/npc/umbrellaGame
+  artifactKey: Guid(106403105e9b048f493e89f30e94b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame using Guid(106403105e9b048f493e89f30e94b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f514e1d2a976f8b05f9830648553e5e') in 0.002470 seconds 
+  Import took 0.046552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003733 seconds.
-  path: Assets/food/food-collection/textures/00fjgr2g-900_NRM.jpg
-  artifactKey: Guid(b3511152860f446b091a92280a199fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-collection/textures/00fjgr2g-900_NRM.jpg using Guid(b3511152860f446b091a92280a199fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ecc47e483ff7c1bf707b127af0e4c') in 0.013938 seconds 
-  Import took 0.024840 seconds .
+  Time since last request: 20.353479 seconds.
+  path: Assets/npc/umbrellaGame/mschristmas@Female Dynamic Pose.fbx
+  artifactKey: Guid(70fac82cb3dce41f78e3ccb1e9d8d7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame/mschristmas@Female Dynamic Pose.fbx using Guid(70fac82cb3dce41f78e3ccb1e9d8d7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f004c2c14284e64ecab9e086581f1a') in 1.482414 seconds 
+  Import took 1.513080 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/food/food-collection/textures/00fjgr2g-900_OCC.jpg
-  artifactKey: Guid(21f8481226b6a47508496501129bd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-collection/textures/00fjgr2g-900_OCC.jpg using Guid(21f8481226b6a47508496501129bd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af0a7744e8e1ed4973cf52a4c18d96a') in 0.010276 seconds 
-  Import took 0.019579 seconds .
+  Time since last request: 4.778610 seconds.
+  path: Assets/npc/umbrellaGame/mschristmas@Female Dance Pose.fbx
+  artifactKey: Guid(a21959333d89a43d082c69cae06980e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame/mschristmas@Female Dance Pose.fbx using Guid(a21959333d89a43d082c69cae06980e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa13e521e08cd8af09d10f549ba7c90') in 0.205747 seconds 
+  Import took 0.223989 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/food/food-collection/textures/00fjgr2g-900_SPEC.jpg
-  artifactKey: Guid(35e6a103c3c694471ab6224269612421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/food/food-collection/textures/00fjgr2g-900_SPEC.jpg using Guid(35e6a103c3c694471ab6224269612421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634074fdc25b4beda6f35968e9cf7b50') in 0.011993 seconds 
-  Import took 0.019867 seconds .
+  Time since last request: 13.876326 seconds.
+  path: Assets/npc/umbrellaGame/texture
+  artifactKey: Guid(f3fe5ca8dcb484e97a15cdd4bf891089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame/texture using Guid(f3fe5ca8dcb484e97a15cdd4bf891089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6fd5381ef0b95fb45533284a9bdb4b') in 0.001825 seconds 
+  Import took 0.033624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.200357 seconds.
-  path: Assets/Savannah/banana/textures/BananaLow_Banana_AlbedoTransparency.png
-  artifactKey: Guid(c0d8b103d6f5d48bba2e2f622f3d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/banana/textures/BananaLow_Banana_AlbedoTransparency.png using Guid(c0d8b103d6f5d48bba2e2f622f3d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe7072ad7fa173e57f004ba64f31c0') in 0.518449 seconds 
-  Import took 0.535474 seconds .
+  Time since last request: 5.997157 seconds.
+  path: Assets/npc/umbrellaGame/mat
+  artifactKey: Guid(83329c87b0fc6420ca47afca507e0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame/mat using Guid(83329c87b0fc6420ca47afca507e0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bf268395e56f800eb3a6365ec0ee0b') in 0.001333 seconds 
+  Import took 0.009539 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002968 seconds.
-  path: Assets/wanted-poster/source/poster.fbx
-  artifactKey: Guid(74191340fd6a64a6db4868e38c88a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wanted-poster/source/poster.fbx using Guid(74191340fd6a64a6db4868e38c88a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e130dc77eb23c950c99711f2bf66b446') in 1.270034 seconds 
-  Import took 1.279398 seconds .
+  Time since last request: 14.913132 seconds.
+  path: Assets/npc/umbrellaGame/mschristmas@Female Dance Pose.fbx
+  artifactKey: Guid(a21959333d89a43d082c69cae06980e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame/mschristmas@Female Dance Pose.fbx using Guid(a21959333d89a43d082c69cae06980e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2020f1e7395b06bb3ddc16e98373c97') in 0.281976 seconds 
+  Import took 0.310364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002538 seconds.
-  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx
-  artifactKey: Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx using Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237190c990350c3b8ff2895e6f43a1ea') in 0.390849 seconds 
-  Import took 0.399459 seconds .
+  Time since last request: 12.181483 seconds.
+  path: Assets/npc/umbrellaGame/mschristmas@Female Dance Pose.fbx
+  artifactKey: Guid(a21959333d89a43d082c69cae06980e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/npc/umbrellaGame/mschristmas@Female Dance Pose.fbx using Guid(a21959333d89a43d082c69cae06980e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2c302f4a7217511fdad66697857d51') in 0.217781 seconds 
+  Import took 0.269378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 360.996588 seconds.
+  path: Assets/Tiger/images-1 2.jpg
+  artifactKey: Guid(c7ebbf823d9be45e3922064e51eaed7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/images-1 2.jpg using Guid(c7ebbf823d9be45e3922064e51eaed7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7355c37083b8612a787b145b8bd3bb2') in 0.512936 seconds 
+  Import took 0.540425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002997 seconds.
+  path: Assets/Tiger/TigerSign.mat
+  artifactKey: Guid(2651eb5d3039845dfb5dfdc9c70dc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/TigerSign.mat using Guid(2651eb5d3039845dfb5dfdc9c70dc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6747663f83f48f073534029e7cb6b5bc') in 0.252138 seconds 
+  Import took 0.268842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.004027 seconds.
+  path: Assets/Scenes/main.unity
+  artifactKey: Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/main.unity using Guid(afdcb113ffd5a4353ad88f0dd03743af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776efe1411e7431057406b6b9c80a235') in 0.001869 seconds 
+  Import took 0.011409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.593969 seconds.
+  path: Assets/Scenes/savannah.unity
+  artifactKey: Guid(b755b7210a58641c4b2fc92c2e81d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/savannah.unity using Guid(b755b7210a58641c4b2fc92c2e81d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b68e6e6e8c19190525263565021bdd') in 0.011936 seconds 
+  Import took 0.034839 seconds .
 
