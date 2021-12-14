@@ -1,0 +1,216 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49847
+Successfully changed project path to: /Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject
+/Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 294.34 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 11.97 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ptchp/Documents/GitHub/VRFinalAssignment/FinalVRProject/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-14 22:40:09.581 Unity[66061:27387960] (null) preferred device: Apple M1 (high power)
+2021-12-14 22:40:09.581 Unity[66061:27387960] Metal devices available: 1
+2021-12-14 22:40:09.581 Unity[66061:27387960] 0: Apple M1 (high power)
+2021-12-14 22:40:09.581 Unity[66061:27387960] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56061
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001341 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.92 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2626ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 120.77 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3810ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (3422ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (2127ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (1766ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.133531 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.089580 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 5022 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 416.4 MB.
+System memory in use after: 413.8 MB.
+
+Unloading 602 unused Assets to reduce memory usage. Loaded Objects now: 5507.
+Total: 6.554125 ms (FindLiveObjects: 1.522584 ms CreateObjectMapping: 0.163167 ms MarkObjects: 3.471084 ms  DeleteObjects: 1.395084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/foodTruck.unity
+  artifactKey: Guid(aa352858dab3f4d79a413701f66a4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/foodTruck.unity using Guid(aa352858dab3f4d79a413701f66a4981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ba1c685daa07563b9dce63b9e7f65e') in 0.029311 seconds 
+  Import took 0.039186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.261567 seconds.
+  path: Assets/food/food-collection/textures/00fjgr2g-900_COLOR.jpg
+  artifactKey: Guid(af271de74ea4b4469855f485ea70b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/food-collection/textures/00fjgr2g-900_COLOR.jpg using Guid(af271de74ea4b4469855f485ea70b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27f3e8201f1829257c6f54922a3f163') in 0.911324 seconds 
+  Import took 0.950966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003733 seconds.
+  path: Assets/food/food-collection/textures/00fjgr2g-900_NRM.jpg
+  artifactKey: Guid(b3511152860f446b091a92280a199fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/food-collection/textures/00fjgr2g-900_NRM.jpg using Guid(b3511152860f446b091a92280a199fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ecc47e483ff7c1bf707b127af0e4c') in 0.013938 seconds 
+  Import took 0.024840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/food/food-collection/textures/00fjgr2g-900_OCC.jpg
+  artifactKey: Guid(21f8481226b6a47508496501129bd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/food-collection/textures/00fjgr2g-900_OCC.jpg using Guid(21f8481226b6a47508496501129bd3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af0a7744e8e1ed4973cf52a4c18d96a') in 0.010276 seconds 
+  Import took 0.019579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/food/food-collection/textures/00fjgr2g-900_SPEC.jpg
+  artifactKey: Guid(35e6a103c3c694471ab6224269612421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/food/food-collection/textures/00fjgr2g-900_SPEC.jpg using Guid(35e6a103c3c694471ab6224269612421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634074fdc25b4beda6f35968e9cf7b50') in 0.011993 seconds 
+  Import took 0.019867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.200357 seconds.
+  path: Assets/Savannah/banana/textures/BananaLow_Banana_AlbedoTransparency.png
+  artifactKey: Guid(c0d8b103d6f5d48bba2e2f622f3d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/banana/textures/BananaLow_Banana_AlbedoTransparency.png using Guid(c0d8b103d6f5d48bba2e2f622f3d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe7072ad7fa173e57f004ba64f31c0') in 0.518449 seconds 
+  Import took 0.535474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002968 seconds.
+  path: Assets/wanted-poster/source/poster.fbx
+  artifactKey: Guid(74191340fd6a64a6db4868e38c88a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wanted-poster/source/poster.fbx using Guid(74191340fd6a64a6db4868e38c88a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e130dc77eb23c950c99711f2bf66b446') in 1.270034 seconds 
+  Import took 1.279398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002538 seconds.
+  path: Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx
+  artifactKey: Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Savannah/yellow-umbrella/source/c984e92c01d0411abeaccb30976251c1/Yellow_Umbrella_tex.fbx using Guid(d86c0630d678f4b068cd903be2b87bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237190c990350c3b8ff2895e6f43a1ea') in 0.390849 seconds 
+  Import took 0.399459 seconds .
+
