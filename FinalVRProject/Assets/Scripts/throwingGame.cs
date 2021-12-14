@@ -7,6 +7,8 @@ public class throwingGame : MonoBehaviour
 {
     [SerializeField] GameObject instruction;
     [SerializeField] GameObject start_button;
+    [SerializeField] GameObject token;
+
     //[SerializeField] GameObject[] redAppleArray;
     //[SerializeField] GameObject[] greenAppleArray;
 
@@ -19,6 +21,7 @@ public class throwingGame : MonoBehaviour
 
     [SerializeField] float maxTime = 30f;
     [SerializeField] int winPoint = 10;
+
     //[SerializeField] GameObject redApplePrefabs;
     //[SerializeField] GameObject greenApplePrefabs;
 
@@ -47,6 +50,7 @@ public class throwingGame : MonoBehaviour
                     start_button.SetActive(false);
                     textScore.enabled = true;
                     countdown.text = "Congratulations";
+                    Instantiate(token, new Vector3(24.7f , 3.9f, 49.5f ), this.transform.rotation);
                 }
                 else
                 {
