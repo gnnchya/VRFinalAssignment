@@ -7,6 +7,8 @@ public class Scene1Script : MonoBehaviour
 {
     [SerializeField] GameObject instruction;
     [SerializeField] GameObject start_button;
+    [SerializeField] GameObject[] redAppleArray;
+    [SerializeField] GameObject[] greenAppleArray;
 
     [SerializeField] AudioSource successSound;
     [SerializeField] int currentScore = 0;
@@ -14,6 +16,9 @@ public class Scene1Script : MonoBehaviour
     [SerializeField] TMPro.TextMeshProUGUI countdown;
 
     [SerializeField] float maxTime = 30f;
+    [SerializeField] GameObject redApplePrefabs;
+    [SerializeField] GameObject greenApplePrefabs;
+
     float timeLeft;
     private bool canRun = false;
     public int levelIndex = 1;
@@ -63,6 +68,7 @@ public class Scene1Script : MonoBehaviour
         textScore.enabled = true;
         countdown.enabled = true;
 
+
         StartCoroutine(StartSpawning());
     }
 
@@ -102,15 +108,6 @@ public class Scene1Script : MonoBehaviour
             float a = Random.Range(-5f, 5f);
             float b = Random.Range(-5f, 5f);
             Instantiate(Dinosaurs, new Vector3(a, 0f, b), Quaternion.identity);
-        }
-
-    }
-
-    private void UpdateStar(int _starsNum)
-    {
-        if (_starsNum > PlayerPrefs.GetInt("Lv" + levelIndex))
-        {
-            PlayerPrefs.SetInt("Lv" + levelIndex, _starsNum);
         }
 
     }

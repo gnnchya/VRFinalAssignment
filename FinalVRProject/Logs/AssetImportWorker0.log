@@ -740,3 +740,11 @@ Received Import Request.
 Start importing Assets/Materials/red.mat using Guid(f81f10ca0bac04d089bdaf2b607ad82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a7d17f11175e87ad7e4a7751f52a4f') in 0.031301 seconds 
   Import took 0.048969 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 7640.963856 seconds.
+  path: Assets/Scripts/temp.cs
+  artifactKey: Guid(9eb8ce3caf07043aca858c8558e74a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/temp.cs using Guid(9eb8ce3caf07043aca858c8558e74a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dd8b020f1d51e09ddf86b7313591c4') in 0.049708 seconds 
+  Import took 0.275898 seconds .
+
