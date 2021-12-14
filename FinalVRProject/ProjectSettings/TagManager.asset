@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CinemachineTarget
+  - redApple
+  - greenApple
   layers:
   - Default
   - TransparentFX
@@ -11,10 +14,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Poster
-  - 
-  - 
-  - 
+  - banana1
+  - ticket
+  - meat
+  - Raycasts
   - 
   - 
   - 
