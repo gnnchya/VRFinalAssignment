@@ -9,10 +9,10 @@ public class throwingGame : MonoBehaviour
     [SerializeField] GameObject start_button;
     [SerializeField] GameObject token;
 
-    [SerializeField] GameObject checkpoint1;
-    [SerializeField] GameObject checkpoint2;
-    [SerializeField] GameObject checkpoint3;
-    [SerializeField] int checkCount = 0;
+    //[SerializeField] GameObject checkpoint1;
+    //[SerializeField] GameObject checkpoint2;
+    //[SerializeField] GameObject checkpoint3;
+    //[SerializeField] int checkCount = 0;
 
     //[SerializeField] GameObject[] redAppleArray;
     //[SerializeField] GameObject[] greenAppleArray;
@@ -138,11 +138,11 @@ public class throwingGame : MonoBehaviour
         apple.SetActive(true);
     }
 
-    public void Checkpoint(GameObject checkpoint)
-    {
-        checkpoint.SetActive(false);
-        checkCount++;
-    }
+    //public void Checkpoint(GameObject checkpoint)
+    //{
+    //    checkpoint.SetActive(false);
+    //    checkCount++;
+    //}
 
 
 }
