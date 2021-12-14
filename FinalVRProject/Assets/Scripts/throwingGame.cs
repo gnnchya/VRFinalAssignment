@@ -3,25 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Scene1Script : MonoBehaviour
+public class throwingGame : MonoBehaviour
 {
     [SerializeField] GameObject instruction;
     [SerializeField] GameObject start_button;
-    [SerializeField] GameObject[] redAppleArray;
-    [SerializeField] GameObject[] greenAppleArray;
+    //[SerializeField] GameObject[] redAppleArray;
+    //[SerializeField] GameObject[] greenAppleArray;
 
     [SerializeField] AudioSource successSound;
+    [SerializeField] AudioSource bgm;
+
     [SerializeField] int currentScore = 0;
     [SerializeField] TMPro.TextMeshProUGUI textScore;
     [SerializeField] TMPro.TextMeshProUGUI countdown;
 
     [SerializeField] float maxTime = 30f;
-    [SerializeField] GameObject redApplePrefabs;
-    [SerializeField] GameObject greenApplePrefabs;
+    [SerializeField] int winPoint = 10;
+    //[SerializeField] GameObject redApplePrefabs;
+    //[SerializeField] GameObject greenApplePrefabs;
 
     float timeLeft;
     private bool canRun = false;
-    public int levelIndex = 1;
+    //public int levelIndex = 1;
 
     // Update is called once per frame
     void Update()
@@ -31,14 +34,15 @@ public class Scene1Script : MonoBehaviour
             if (timeLeft > 0)
             {
                 timeLeft -= Time.deltaTime;
-                countdown.text = "Time : " + (int) timeLeft;
+                countdown.text = "Time : " + Mathf.Round(timeLeft);
 
             }
             else
             {
                 Time.timeScale = 0;
-                if (currentScore >= 15)
+                if (currentScore >= winPoint)
                 {
+                    bgm.Stop();
                     instruction.SetActive(false);
                     start_button.SetActive(false);
                     textScore.enabled = true;
@@ -46,6 +50,7 @@ public class Scene1Script : MonoBehaviour
                 }
                 else
                 {
+                    bgm.Stop();
                     instruction.SetActive(true);
                     start_button.SetActive(true);
                     textScore.enabled = false;
@@ -63,53 +68,65 @@ public class Scene1Script : MonoBehaviour
     public void Run()
     {
         Time.timeScale = 1;
+        bgm.Play();
         canRun = true;
         timeLeft = maxTime;
         textScore.enabled = true;
         countdown.enabled = true;
+        countdown.text = "Time : " + Mathf.Round(maxTime);
+        countdown.text = "Point : 0";
 
-
-        StartCoroutine(StartSpawning());
     }
 
-    public void Shoot()
+    private void OnCollisionEnter(Collision collision)
     {
-        RaycastHit hit;
-        if (timeLeft > 0)
+
+        // when collide
+        if (collision.gameObject.tag == "redApple")
         {
-            if (Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit))
-            {
-                if (hit.transform.name == "trex(Clone)")
-                {
-                    if (!dieSound.isPlaying)
-                    {
-                        dieSound.Play();
-                    }
-                    hit.transform.gameObject.SetActive(false);
-                    float a = Random.Range(-5f, 5f);
-                    float b = Random.Range(-5f, 5f);
-                    hit.transform.position = new Vector3(a, b, 0f);
-                    hit.transform.gameObject.SetActive(true);
-                    currentScore = currentScore + 1;
-                    textScore.text = "Score : " + currentScore;
-                }
-            }
+
+            Debug.Log("red apple");
+
+            // if coin is collected, make the coin disappear and increase the score
+            successSound.Play();
+            currentScore++;
+            textScore.text = "Score : " + currentScore;
+
+            StartCoroutine(Respawning(collision.gameObject));
+
+        }
+        else if (collision.gameObject.tag == "greenApple")
+        {
+            successSound.Play();
+            Debug.Log("green apple");
+
+            // if coin is collected, make the coin disappear and increase the score
+            currentScore++;
+            currentScore++;
+            textScore.text = "Score : " + currentScore;
+
+            StartCoroutine(Respawning(collision.gameObject));
         }
     }
 
 
-    IEnumerator StartSpawning()
+    IEnumerator Respawning(GameObject apple)
     {
-
-        yield return new WaitForSeconds(1);
-
-        for (int i = 0; i < 3; i++)
+        apple.SetActive(false);
+        int table = Random.Range(0, 1);
+        float a = Random.Range(0f, 1f);
+        float b = Random.Range(0f, 0.3f);
+        if (table == 1)
         {
-            float a = Random.Range(-5f, 5f);
-            float b = Random.Range(-5f, 5f);
-            Instantiate(Dinosaurs, new Vector3(a, 0f, b), Quaternion.identity);
-        }
+            apple.transform.position = new Vector3(24.3f + a, 3.9f, 49.1f + b);
 
+        } else
+        {
+            apple.transform.position = new Vector3(25.7f + a, 3.9f, 49.6f + b);
+        }
+        yield return new WaitForSeconds(5);
+
+        apple.SetActive(true);
     }
 
 
