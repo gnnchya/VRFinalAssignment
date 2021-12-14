@@ -7,6 +7,13 @@ public class throwingGame : MonoBehaviour
 {
     [SerializeField] GameObject instruction;
     [SerializeField] GameObject start_button;
+    [SerializeField] GameObject token;
+
+    [SerializeField] GameObject checkpoint1;
+    [SerializeField] GameObject checkpoint2;
+    [SerializeField] GameObject checkpoint3;
+    [SerializeField] int checkCount = 0;
+
     //[SerializeField] GameObject[] redAppleArray;
     //[SerializeField] GameObject[] greenAppleArray;
 
@@ -19,6 +26,7 @@ public class throwingGame : MonoBehaviour
 
     [SerializeField] float maxTime = 30f;
     [SerializeField] int winPoint = 10;
+
     //[SerializeField] GameObject redApplePrefabs;
     //[SerializeField] GameObject greenApplePrefabs;
 
@@ -47,6 +55,7 @@ public class throwingGame : MonoBehaviour
                     start_button.SetActive(false);
                     textScore.enabled = true;
                     countdown.text = "Congratulations";
+                    Instantiate(token, new Vector3(24.7f , 3.9f, 49.5f ), this.transform.rotation);
                 }
                 else
                 {
@@ -129,6 +138,11 @@ public class throwingGame : MonoBehaviour
         apple.SetActive(true);
     }
 
+    public void Checkpoint(GameObject checkpoint)
+    {
+        checkpoint.SetActive(false);
+        checkCount++;
+    }
 
 
 }
