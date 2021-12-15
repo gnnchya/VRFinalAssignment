@@ -24,7 +24,5 @@ public class gate_opening : XRSocketInteractor
         return interactable.CompareTag(targetTag);
     }
 
-    public XRInteractorEvent onSelectEnter { get; set; }
-
 }
 

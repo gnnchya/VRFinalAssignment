@@ -8,6 +8,7 @@ TagManager:
   - redApple
   - greenApple
   - token1
+  - umbrella
   layers:
   - Default
   - TransparentFX

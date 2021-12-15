@@ -80,6 +80,7 @@ public class throwingGame : MonoBehaviour
         bgm.Play();
         canRun = true;
         timeLeft = maxTime;
+        start_button.SetActive(false);
         textScore.enabled = true;
         countdown.enabled = true;
         countdown.text = "Time : " + Mathf.Round(maxTime);
