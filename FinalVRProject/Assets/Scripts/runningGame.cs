@@ -10,6 +10,11 @@ public class runningGame : MonoBehaviour
     [SerializeField] float timeLeft = 40f;
 
     [SerializeField] TMPro.TextMeshProUGUI countdown;
+    [SerializeField] TMPro.TextMeshProUGUI countdownScreen;
+    [SerializeField] GameObject screen;
+    [SerializeField] GameObject congrats;
+
+
     [SerializeField] GameObject instruction;
     [SerializeField] AudioSource successSound;
     [SerializeField] AudioSource bgm;
@@ -30,6 +35,7 @@ public class runningGame : MonoBehaviour
             {
                 timeLeft -= Time.deltaTime;
                 countdown.text = "Time : " + Mathf.Round(timeLeft);
+                countdownScreen.text = "Time : " + Mathf.Round(timeLeft);
                 if (won)
                 {
                     timeLeft = 0f;
@@ -38,15 +44,15 @@ public class runningGame : MonoBehaviour
             else
             {
                 Time.timeScale = 0;
-                canRun = false;
 
                 if (won)
                 {
                     bgm.Stop();
                     instruction.SetActive(false);
                     start_button.SetActive(false);
+                    congrats.SetActive(true);
                     countdown.text = "Congratulations";
-                    Instantiate(token, new Vector3(24.7f, 3.9f, 49.5f), this.transform.rotation);
+                    Instantiate(token, new Vector3(44.54f, 5.83f, 69.59f), this.transform.rotation);
 
 
                 }
@@ -56,9 +62,14 @@ public class runningGame : MonoBehaviour
                     instruction.SetActive(true);
                     start_button.SetActive(true);
                     countdown.enabled = false;
+
                 }
-                
+
+                screen.SetActive(false);
+                countdownScreen.enabled = false;
+                canRun = false;
             }
+            
         }
     }
 
@@ -68,7 +79,11 @@ public class runningGame : MonoBehaviour
         bgm.Play();
         canRun = true;
         countdown.enabled = true;
+        countdownScreen.enabled = true;
         start_button.SetActive(false);
+        screen.SetActive(true);
+
+
         countdown.text = "Time : " + Mathf.Round(timeLeft);
     }
 

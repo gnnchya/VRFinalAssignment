@@ -9,6 +9,8 @@ TagManager:
   - greenApple
   - token1
   - umbrella
+  - token2
+  - token3
   layers:
   - Default
   - TransparentFX
