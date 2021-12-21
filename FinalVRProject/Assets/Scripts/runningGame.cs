@@ -43,7 +43,6 @@ public class runningGame : MonoBehaviour
             }
             else
             {
-                Time.timeScale = 0;
 
                 if (won)
                 {
@@ -61,12 +60,12 @@ public class runningGame : MonoBehaviour
                     bgm.Stop();
                     instruction.SetActive(true);
                     start_button.SetActive(true);
-                    countdown.enabled = false;
+                    countdown.text = "";
 
                 }
 
                 screen.SetActive(false);
-                countdownScreen.enabled = false;
+                countdownScreen.text = "";
                 canRun = false;
             }
             
@@ -78,13 +77,10 @@ public class runningGame : MonoBehaviour
         Time.timeScale = 1;
         bgm.Play();
         canRun = true;
-        countdown.enabled = true;
-        countdownScreen.enabled = true;
+        countdown.text = "Time : " + Mathf.Round(timeLeft); 
+        countdownScreen.text = "Time : " + Mathf.Round(timeLeft);
         start_button.SetActive(false);
         screen.SetActive(true);
-
-
-        countdown.text = "Time : " + Mathf.Round(timeLeft);
     }
 
     //when the player hand umbrella to npm

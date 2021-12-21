@@ -27,6 +27,10 @@ public class throwingGame : MonoBehaviour
     [SerializeField] float maxTime = 30f;
     [SerializeField] int winPoint = 10;
 
+    [SerializeField] GameObject screen;
+    [SerializeField] TMPro.TextMeshProUGUI countdownScreen;
+    [SerializeField] TMPro.TextMeshProUGUI pointScreen;
+
     //[SerializeField] GameObject redApplePrefabs;
     //[SerializeField] GameObject greenApplePrefabs;
 
@@ -43,11 +47,11 @@ public class throwingGame : MonoBehaviour
             {
                 timeLeft -= Time.deltaTime;
                 countdown.text = "Time : " + Mathf.Round(timeLeft);
+                countdownScreen.text = "Time : " + Mathf.Round(timeLeft);
 
             }
             else
             {
-                Time.timeScale = 0;
                 if (currentScore >= winPoint)
                 {
                     bgm.Stop();
@@ -61,8 +65,11 @@ public class throwingGame : MonoBehaviour
                     bgm.Stop();
                     instruction.SetActive(true);
                     start_button.SetActive(true);
+                    screen.SetActive(false);
                     textScore.text = "";
                     countdown.text = "";
+                    countdownScreen.text = "";
+                    pointScreen.text = "";
 
                 }
 
@@ -80,10 +87,12 @@ public class throwingGame : MonoBehaviour
         canRun = true;
         timeLeft = maxTime;
         start_button.SetActive(false);
+        screen.SetActive(true);
         currentScore = 0;
         countdown.text = "Time : " + Mathf.Round(maxTime);
         textScore.text = "Score : 0";
-
+        countdownScreen.text = "Time: " + Mathf.Round(maxTime);
+        pointScreen.text = "Score : 0";
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -97,8 +106,10 @@ public class throwingGame : MonoBehaviour
 
             // if coin is collected, make the coin disappear and increase the score
             successSound.Play();
-            currentScore++;
+            currentScore += 2;
+
             textScore.text = "Score : " + currentScore;
+            pointScreen.text = "Score : " + currentScore;
 
             StartCoroutine(Respawning(collision.gameObject));
 
@@ -109,9 +120,10 @@ public class throwingGame : MonoBehaviour
             Debug.Log("green apple");
 
             // if coin is collected, make the coin disappear and increase the score
-            currentScore++;
-            currentScore++;
+            currentScore += 3;
+
             textScore.text = "Score : " + currentScore;
+            pointScreen.text = "Score : " + currentScore;
 
             StartCoroutine(Respawning(collision.gameObject));
         }
