@@ -57,7 +57,8 @@ public class throwingGame : MonoBehaviour
                     bgm.Stop();
                     instruction.SetActive(false);
                     start_button.SetActive(false);
-                    countdown.text = "Congratulations";
+                    screen.SetActive(false);
+                    countdown.text = "Congrats";
                     Instantiate(token, new Vector3(24.7f , 3.9f, 49.5f ), this.transform.rotation);
                 }
                 else

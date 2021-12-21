@@ -17,7 +17,7 @@ public class hiding : MonoBehaviour
         successSound.Play();
         Instantiate(token, new Vector3(29.35f, 4.362f, 57.131f), this.transform.rotation);
         start_button.SetActive(false);
-        foundText.enabled = true;
+        foundText.text = "You found it!";
 
     }
 
