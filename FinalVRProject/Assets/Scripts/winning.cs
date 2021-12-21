@@ -14,6 +14,8 @@ public class winning : MonoBehaviour
 
     [SerializeField] GameObject trophy;
 
+    [SerializeField] TMPro.TextMeshProUGUI winText;
+
     void Start()
     {
         
@@ -31,8 +33,9 @@ public class winning : MonoBehaviour
             {
                 Debug.Log("win");
                 successSound.Play();
-                Instantiate(trophy, new Vector3(-5.6f, 4.75f, 0.174f), this.transform.rotation);
+                Instantiate(trophy, new Vector3(-6.68f, 4.75f, 0.174f), this.transform.rotation);
                 won = true;
+                winText.text = "CONGRATULATONS";
             }
         }
     }
