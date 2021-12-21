@@ -135,15 +135,13 @@ public class throwingGame : MonoBehaviour
     {
         apple.SetActive(false);
         int table = Random.Range(0, 1);
-        float a = Random.Range(0f, 1f);
-        float b = Random.Range(0f, 0.3f);
         if (table == 1)
         {
-            apple.transform.position = new Vector3(24.3f + a, 3.9f, 49.1f + b);
+            apple.transform.localPosition = (new Vector3(Random.Range(-0.2f, 1f), -6.169764f, Random.Range(-23f, -24f)));
 
         } else
         {
-            apple.transform.position = new Vector3(25.7f + a, 3.9f, 49.6f + b);
+            apple.transform.localPosition = (new Vector3(Random.Range(2f, 3f), -6.169764f, Random.Range(-23f, -23.5f)));
         }
         yield return new WaitForSeconds(5);
 
