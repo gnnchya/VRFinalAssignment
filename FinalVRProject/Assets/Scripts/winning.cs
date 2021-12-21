@@ -24,8 +24,12 @@ public class winning : MonoBehaviour
     {
         if (token1check && token2check && token3check)
         {
+            Debug.Log("get 3 tokens");
+            Debug.Log(won);
+
             if (!won)
             {
+                Debug.Log("win");
                 successSound.Play();
                 Instantiate(trophy, new Vector3(-5.6f, 4.75f, 0.174f), this.transform.rotation);
                 won = true;
