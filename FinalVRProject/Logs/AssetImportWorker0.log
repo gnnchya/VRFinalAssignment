@@ -1328,3 +1328,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2477.856483 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54c3b4da7eb38937d884a7b5de7c365') in 0.660601 seconds 
+  Import took 0.711551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.143839 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5319959db80cb87fa17bf23a867c2d48') in 0.029881 seconds 
+  Import took 0.040092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003174 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5319959db80cb87fa17bf23a867c2d48') in 0.011018 seconds 
+  Import took 0.020836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.847523 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2f16eaaa60b7bc3338f9f56863575c') in 0.058255 seconds 
+  Import took 0.102331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.356661 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73062f34a5ff838c5a7e528ae036b7c9') in 0.054300 seconds 
+  Import took 0.097310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.495495 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfc6223b1a278bb1f30568994c0d873') in 0.010639 seconds 
+  Import took 0.020550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.283560 seconds.
+  path: Assets/Prefabs/uploads_files_2369591_Gold+coin+-+1. 1 1.prefab
+  artifactKey: Guid(16ddfe18629304810a5c7424e1cac44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369591_Gold+coin+-+1. 1 1.prefab using Guid(16ddfe18629304810a5c7424e1cac44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6898a2010bbc9ec26ad85aae0ecc4c9') in 0.143132 seconds 
+  Import took 0.187618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021221 seconds.
+  path: Assets/Prefabs/uploads_files_2369591_Gold+coin+-+1. 1 1.prefab
+  artifactKey: Guid(16ddfe18629304810a5c7424e1cac44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369591_Gold+coin+-+1. 1 1.prefab using Guid(16ddfe18629304810a5c7424e1cac44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6898a2010bbc9ec26ad85aae0ecc4c9') in 0.024507 seconds 
+  Import took 0.033319 seconds .
+
