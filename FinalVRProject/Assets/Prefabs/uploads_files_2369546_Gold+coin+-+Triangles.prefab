@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6875492277987730748}
   - component: {fileID: 5236334436953684412}
   - component: {fileID: 5236334436953684413}
+  - component: {fileID: 1100061223944304583}
   m_Layer: 0
   m_Name: uploads_files_2369546_Gold+coin+-+Triangles
   m_TagString: token2
@@ -204,3 +205,16 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!65 &1100061223944304583
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929853608138753257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00044853758, y: 0.00004485972, z: 0.0004485375}
+  m_Center: {x: 7.275958e-12, y: -0.000022429747, z: -2.9103825e-11}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 748200717410608732}
   - component: {fileID: 9070646787277204393}
   - component: {fileID: 5821076354903765182}
+  - component: {fileID: 5089662714091666411}
   m_Layer: 0
   m_Name: uploads_files_2369591_Gold+coin+-+1. 1
   m_TagString: token3
@@ -154,6 +155,19 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!65 &5089662714091666411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83866598150241510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &766142802855320887
 GameObject:
   m_ObjectHideFlags: 0

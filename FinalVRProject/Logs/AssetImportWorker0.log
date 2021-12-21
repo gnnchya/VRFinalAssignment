@@ -1118,3 +1118,99 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10618.307241 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f26440e9d11513b0569c25cb3997d78') in 1.247583 seconds 
+  Import took 1.565081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 348.907384 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures
+  artifactKey: Guid(39646d1519db240b2b5459d41b1c7f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures using Guid(39646d1519db240b2b5459d41b1c7f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39d98ef84ee535ba74bbe760e858d39') in 0.004658 seconds 
+  Import took 0.056516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002852 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Albedo.png
+  artifactKey: Guid(e5a8dbc3f13244e729f8d0feb4383cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Albedo.png using Guid(e5a8dbc3f13244e729f8d0feb4383cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0785a4f59d3fc74378f00af25a7858') in 1.026914 seconds 
+  Import took 1.037304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018599 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Metallic.png
+  artifactKey: Guid(35b6e186ec00a40bc8d9570f00ef9703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Metallic.png using Guid(35b6e186ec00a40bc8d9570f00ef9703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbedafce2cc407ebaf20f6cb8352652d') in 0.024877 seconds 
+  Import took 0.036914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Emissive.png
+  artifactKey: Guid(b981d08f6ee194568b3dbe661b5d869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Emissive.png using Guid(b981d08f6ee194568b3dbe661b5d869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aff6fdaf0f82a7d1eedf5f39a4dbeb') in 0.014654 seconds 
+  Import took 0.025163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Albedo.png
+  artifactKey: Guid(e5a8dbc3f13244e729f8d0feb4383cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Albedo.png using Guid(e5a8dbc3f13244e729f8d0feb4383cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0785a4f59d3fc74378f00af25a7858') in 0.012343 seconds 
+  Import took 0.021779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Roughness.png
+  artifactKey: Guid(fe03203c886db403f9d412f8b597093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Roughness.png using Guid(fe03203c886db403f9d412f8b597093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4940614db3061d70b21ff200cdd7137') in 0.013952 seconds 
+  Import took 0.020706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_AO.png
+  artifactKey: Guid(910da952f41e74e4691cf9e64ada105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_AO.png using Guid(910da952f41e74e4691cf9e64ada105b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988dd843df502b8c084f01f301f1c9d7') in 0.010961 seconds 
+  Import took 0.018139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Normal.png
+  artifactKey: Guid(3fb7700e666334aa585386466d628bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Entrance/3-ticket-gates/textures/ticketGate2_phong1_Normal.png using Guid(3fb7700e666334aa585386466d628bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea21bb3be3495dec919f8c8ee4eef755') in 0.009477 seconds 
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.909966 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd94f13b62bec60a7bfede5c29982900') in 1.526818 seconds 
+  Import took 1.573019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042659 seconds.
+  path: Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab
+  artifactKey: Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369546_Gold+coin+-+Triangles.prefab using Guid(1962fa986b9d9467bb54bd1dea684ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd94f13b62bec60a7bfede5c29982900') in 0.060311 seconds 
+  Import took 0.084132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.776214 seconds.
+  path: Assets/Prefabs/uploads_files_2369591_Gold+coin+-+1. 1.prefab
+  artifactKey: Guid(c28609bb443bd4db5880f7b358cd460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/uploads_files_2369591_Gold+coin+-+1. 1.prefab using Guid(c28609bb443bd4db5880f7b358cd460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c33a0bc0449bdd204f093683a83fa8') in 0.053059 seconds 
+  Import took 0.087533 seconds .
+
