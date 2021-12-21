@@ -31,7 +31,7 @@ public class runningGame : MonoBehaviour
     {
         if(canRun)
         {
-            if(timeLeft > 0)
+            if(timeLeft > 0 && (!won))
             {
                 timeLeft -= Time.deltaTime;
                 countdown.text = "Time : " + Mathf.Round(timeLeft);
@@ -46,8 +46,8 @@ public class runningGame : MonoBehaviour
 
                 if (won)
                 {
+                    Debug.Log("win");
                     bgm.Stop();
-                    instruction.SetActive(false);
                     start_button.SetActive(false);
                     congrats.SetActive(true);
                     countdown.text = "Congratulations";
@@ -57,8 +57,8 @@ public class runningGame : MonoBehaviour
                 }
                 else if (!won)
                 {
+                    Debug.Log("lose");
                     bgm.Stop();
-                    instruction.SetActive(true);
                     start_button.SetActive(true);
                     countdown.text = "";
 
@@ -77,6 +77,7 @@ public class runningGame : MonoBehaviour
         Time.timeScale = 1;
         bgm.Play();
         canRun = true;
+        timeLeft = 40f;
         countdown.text = "Time : " + Mathf.Round(timeLeft); 
         countdownScreen.text = "Time : " + Mathf.Round(timeLeft);
         start_button.SetActive(false);
