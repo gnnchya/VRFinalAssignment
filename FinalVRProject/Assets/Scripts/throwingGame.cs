@@ -134,25 +134,17 @@ public class throwingGame : MonoBehaviour
     IEnumerator Respawning(GameObject apple)
     {
         apple.SetActive(false);
-        int table = Random.Range(0, 1);
-        if (table == 1)
-        {
-            apple.transform.localPosition = (new Vector3(Random.Range(-0.2f, 1f), -6.169764f, Random.Range(-23f, -24f)));
 
-        } else
-        {
-            apple.transform.localPosition = (new Vector3(Random.Range(2f, 3f), -6.169764f, Random.Range(-23f, -23.5f)));
-        }
+    
+        apple.transform.localPosition = (new Vector3(Random.Range(-0.2f, 1f), -6.169764f, Random.Range(-23f, -24f)));
+
+      
+        //apple.transform.localPosition = (new Vector3(Random.Range(2f, 3f), -6.169764f, Random.Range(-23f, -23.5f)));
+     
         yield return new WaitForSeconds(5);
 
         apple.SetActive(true);
     }
-
-    //public void Checkpoint(GameObject checkpoint)
-    //{
-    //    checkpoint.SetActive(false);
-    //    checkCount++;
-    //}
 
 
 }
