@@ -53,7 +53,6 @@ public class throwingGame : MonoBehaviour
                     bgm.Stop();
                     instruction.SetActive(false);
                     start_button.SetActive(false);
-                    textScore.enabled = true;
                     countdown.text = "Congratulations";
                     Instantiate(token, new Vector3(24.7f , 3.9f, 49.5f ), this.transform.rotation);
                 }
@@ -62,8 +61,8 @@ public class throwingGame : MonoBehaviour
                     bgm.Stop();
                     instruction.SetActive(true);
                     start_button.SetActive(true);
-                    textScore.enabled = false;
-                    countdown.enabled = false;
+                    textScore.text = "";
+                    countdown.text = "";
 
                 }
 
@@ -81,10 +80,9 @@ public class throwingGame : MonoBehaviour
         canRun = true;
         timeLeft = maxTime;
         start_button.SetActive(false);
-        textScore.enabled = true;
-        countdown.enabled = true;
+        currentScore = 0;
         countdown.text = "Time : " + Mathf.Round(maxTime);
-        countdown.text = "Point : 0";
+        textScore.text = "Score : 0";
 
     }
 
