@@ -84,15 +84,12 @@ public class runningGame : MonoBehaviour
     }
 
     //when the player hand umbrella to npm
-    private void OnCollisionEnter(Collision collision)
+    public void win()
     {   
-        if(collision.gameObject.tag == "umbrella")
-        {
-            Debug.Log("Congratulations!");
-            successSound.Play();
-            won = true;
-        }
-
+        Debug.Log("Congratulations!");
+        successSound.Play();
+        won = true;
     }
+
 
 }
